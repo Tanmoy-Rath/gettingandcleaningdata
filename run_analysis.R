@@ -56,7 +56,7 @@ required_columns <- grep("mean\\(\\)|std\\(\\)", features$V2) + 2
 # 2 is added because, the first 2 columns (subject_id,activity) have shifted all column numbers by 2
 
 Mean_Std <- Train_Test_combo[,required_columns]
-# I have chosen mean() and std() columns only, because meanFreq() is a weighted mean.
+# I have chosen mean() and std() columns only, because meanFreq() is a weighted mean, calculated differently.
 # Quoted from features_info.txt:- meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 rm(required_columns)
 
