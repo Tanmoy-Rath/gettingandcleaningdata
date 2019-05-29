@@ -57,7 +57,7 @@ required_columns <- grep("mean\\(\\)|std\\(\\)", features$V2) + 2
 
 Mean_Std <- Train_Test_combo[,required_columns]
 # I have chosen mean() and std() columns only, because meanFreq() is a weighted mean.
-# meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+# Quoted from features.txt:- meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 rm(required_columns)
 
 
