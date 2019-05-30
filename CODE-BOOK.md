@@ -20,7 +20,8 @@ Acceleration measurements of body in 3 axis XYZ, calculated in time domain
 
 <hr>
 
-**  [1] subject_id                          
+<b>
+  [1] subject_id                          
   [2] activity                            
   [3] tBodyAcc.mean...X                   
   [4] tBodyAcc.mean...Y                   
@@ -582,4 +583,4 @@ Acceleration measurements of body in 3 axis XYZ, calculated in time domain
 [560] angle.tBodyGyroJerkMean.gravityMean.
 [561] angle.X.gravityMean.                
 [562] angle.Y.gravityMean.                
-[563] angle.Z.gravityMean.                **
+[563] angle.Z.gravityMean.                </b>
