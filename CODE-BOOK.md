@@ -36,8 +36,9 @@ The first 2 columns in the dataset serve as Identifiers:
 ### Measurements
 The remaining columns are measurements taken by the smartphone for each Subject and Activity.
 
-
-* `tBodyAcc.mean...X`                    
+|Column Names|Description|
+|---|---|
+|* `tBodyAcc.mean...X`                    
 * `tBodyAcc.mean...Y`                   
 * `tBodyAcc.mean...Z`                   
 * `tBodyAcc.std...X`                      
@@ -597,4 +598,4 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 [560] angle.tBodyGyroJerkMean.gravityMean.    
 [561] angle.X.gravityMean.                
 [562] angle.Y.gravityMean.                
-[563] angle.Z.gravityMean.                </b>
+[563] angle.Z.gravityMean.                |pp|
