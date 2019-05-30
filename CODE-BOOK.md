@@ -27,9 +27,9 @@ Each row represents 1 Subject and 1 Activity. The raw data included multiple mea
 The first 2 columns in the dataset serve as Identifiers:
 
 
-* **subject_id**: The ID for the subject participating in the experiment
+* **`subject_id`**: The ID for the subject participating in the experiment
     * It ranges from 1 to 30
-* **activity**: The type of activity performed by the subject for which the measurements were taken. They are numbered from 1 to 6 and are:
+* **`activity`**: The type of activity performed by the subject for which the measurements were taken. They are numbered from 1 to 6 and are:
     * WALKING
     * WALKING_UPSTAIRS
     * WALKING_DOWNSTAIRS
