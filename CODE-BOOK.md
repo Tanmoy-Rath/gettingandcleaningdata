@@ -37,92 +37,92 @@ The first 2 columns in the dataset serve as Identifiers:
 The remaining columns are measurements taken by the smartphone for each Subject and Activity.
 
 
-* tBodyAcc.mean...X                    
-* tBodyAcc.mean...Y                   
-* tBodyAcc.mean...Z                   
-* tBodyAcc.std...X                      
-* tBodyAcc.std...Y                      
-* tBodyAcc.std...Z                      
-* tBodyAcc.mad...X                      
-* tBodyAcc.mad...Y                     
-* tBodyAcc.mad...Z                     
-* tBodyAcc.max...X                    
-* tBodyAcc.max...Y                    
-* tBodyAcc.max...Z                    
-* tBodyAcc.min...X                     
-* tBodyAcc.min...Y                    
-* tBodyAcc.min...Z                     
-* tBodyAcc.sma..                       
-* tBodyAcc.energy...X                 
-* tBodyAcc.energy...Y                  
- [21] tBodyAcc.energy...Z                 
- [22] tBodyAcc.iqr...X                    
- [23] tBodyAcc.iqr...Y                    
- [24] tBodyAcc.iqr...Z                    
- [25] tBodyAcc.entropy...X                
- [26] tBodyAcc.entropy...Y                
- [27] tBodyAcc.entropy...Z                
- [28] tBodyAcc.arCoeff...X.1              
- [29] tBodyAcc.arCoeff...X.2              
- [30] tBodyAcc.arCoeff...X.3              
- [31] tBodyAcc.arCoeff...X.4              
- [32] tBodyAcc.arCoeff...Y.1              
- [33] tBodyAcc.arCoeff...Y.2              
- [34] tBodyAcc.arCoeff...Y.3              
- [35] tBodyAcc.arCoeff...Y.4              
- [36] tBodyAcc.arCoeff...Z.1              
- [37] tBodyAcc.arCoeff...Z.2              
- [38] tBodyAcc.arCoeff...Z.3              
- [39] tBodyAcc.arCoeff...Z.4              
- [40] tBodyAcc.correlation...X.Y          
- [41] tBodyAcc.correlation...X.Z          
- [42] tBodyAcc.correlation...Y.Z          
- [43] tGravityAcc.mean...X                
- [44] tGravityAcc.mean...Y                
- [45] tGravityAcc.mean...Z                
- [46] tGravityAcc.std...X                 
- [47] tGravityAcc.std...Y                 
- [48] tGravityAcc.std...Z                 
- [49] tGravityAcc.mad...X                 
- [50] tGravityAcc.mad...Y                 
- [51] tGravityAcc.mad...Z                 
- [52] tGravityAcc.max...X                 
- [53] tGravityAcc.max...Y                 
- [54] tGravityAcc.max...Z                 
- [55] tGravityAcc.min...X                 
- [56] tGravityAcc.min...Y                 
- [57] tGravityAcc.min...Z                 
- [58] tGravityAcc.sma..                   
- [59] tGravityAcc.energy...X              
- [60] tGravityAcc.energy...Y              
- [61] tGravityAcc.energy...Z              
- [62] tGravityAcc.iqr...X                 
- [63] tGravityAcc.iqr...Y                 
- [64] tGravityAcc.iqr...Z                 
- [65] tGravityAcc.entropy...X             
- [66] tGravityAcc.entropy...Y             
- [67] tGravityAcc.entropy...Z             
- [68] tGravityAcc.arCoeff...X.1           
- [69] tGravityAcc.arCoeff...X.2           
- [70] tGravityAcc.arCoeff...X.3           
- [71] tGravityAcc.arCoeff...X.4           
- [72] tGravityAcc.arCoeff...Y.1           
- [73] tGravityAcc.arCoeff...Y.2           
- [74] tGravityAcc.arCoeff...Y.3           
- [75] tGravityAcc.arCoeff...Y.4           
- [76] tGravityAcc.arCoeff...Z.1           
- [77] tGravityAcc.arCoeff...Z.2           
- [78] tGravityAcc.arCoeff...Z.3           
- [79] tGravityAcc.arCoeff...Z.4           
- [80] tGravityAcc.correlation...X.Y       
- [81] tGravityAcc.correlation...X.Z       
- [82] tGravityAcc.correlation...Y.Z       
- [83] tBodyAccJerk.mean...X               
- [84] tBodyAccJerk.mean...Y               
- [85] tBodyAccJerk.mean...Z               
- [86] tBodyAccJerk.std...X                
- [87] tBodyAccJerk.std...Y                
- [88] tBodyAccJerk.std...Z                
+* `tBodyAcc.mean...X`                    
+* `tBodyAcc.mean...Y`                   
+* `tBodyAcc.mean...Z`                   
+* `tBodyAcc.std...X`                      
+* `tBodyAcc.std...Y`                      
+* `tBodyAcc.std...Z`                      
+* `tBodyAcc.mad...X`                      
+* `tBodyAcc.mad...Y`                     
+* `tBodyAcc.mad...Z`                     
+* `tBodyAcc.max...X`                    
+* `tBodyAcc.max...Y`                    
+* `tBodyAcc.max...Z`                    
+* `tBodyAcc.min...X`                     
+* `tBodyAcc.min...Y`                    
+* `tBodyAcc.min...Z`                     
+* `tBodyAcc.sma..`                       
+* `tBodyAcc.energy...X`                 
+* `tBodyAcc.energy...Y`                  
+* `tBodyAcc.energy...Z`                 
+* `tBodyAcc.iqr...X`                    
+* `tBodyAcc.iqr...Y`                    
+* `tBodyAcc.iqr...Z`                    
+* `tBodyAcc.entropy...X`                
+* `tBodyAcc.entropy...Y`                
+* `tBodyAcc.entropy...Z`                
+* `tBodyAcc.arCoeff...X.1`              
+* `tBodyAcc.arCoeff...X.2`              
+* `tBodyAcc.arCoeff...X.3`              
+* `tBodyAcc.arCoeff...X.4`              
+* `tBodyAcc.arCoeff...Y.1`              
+* `tBodyAcc.arCoeff...Y.2`              
+* `tBodyAcc.arCoeff...Y.3`              
+* `tBodyAcc.arCoeff...Y.4`              
+* `tBodyAcc.arCoeff...Z.1`              
+* `tBodyAcc.arCoeff...Z.2`              
+* `tBodyAcc.arCoeff...Z.3`              
+* `tBodyAcc.arCoeff...Z.4`              
+* `tBodyAcc.correlation...X.Y          
+* `tBodyAcc.correlation...X.Z          
+* `tBodyAcc.correlation...Y.Z          
+* `tGravityAcc.mean...X                
+* `tGravityAcc.mean...Y                
+* `tGravityAcc.mean...Z                
+* `tGravityAcc.std...X                 
+* `tGravityAcc.std...Y                 
+* `tGravityAcc.std...Z                 
+* `tGravityAcc.mad...X                 
+* `tGravityAcc.mad...Y                 
+* `tGravityAcc.mad...Z                 
+* `tGravityAcc.max...X                 
+* `tGravityAcc.max...Y                 
+* `tGravityAcc.max...Z                 
+* `tGravityAcc.min...X                 
+* `tGravityAcc.min...Y                 
+* `tGravityAcc.min...Z                 
+* `tGravityAcc.sma..                   
+* `tGravityAcc.energy...X              
+* `tGravityAcc.energy...Y              
+* `tGravityAcc.energy...Z              
+* `tGravityAcc.iqr...X                 
+* `tGravityAcc.iqr...Y                 
+* `tGravityAcc.iqr...Z                 
+* `tGravityAcc.entropy...X             
+* `tGravityAcc.entropy...Y             
+* `tGravityAcc.entropy...Z             
+* `tGravityAcc.arCoeff...X.1           
+* `tGravityAcc.arCoeff...X.2           
+* `tGravityAcc.arCoeff...X.3           
+* `tGravityAcc.arCoeff...X.4           
+* `tGravityAcc.arCoeff...Y.1           
+* `tGravityAcc.arCoeff...Y.2           
+* `tGravityAcc.arCoeff...Y.3           
+* `tGravityAcc.arCoeff...Y.4           
+* `tGravityAcc.arCoeff...Z.1           
+* `tGravityAcc.arCoeff...Z.2           
+* `tGravityAcc.arCoeff...Z.3           
+* `tGravityAcc.arCoeff...Z.4           
+* `tGravityAcc.correlation...X.Y       
+* `tGravityAcc.correlation...X.Z       
+* `tGravityAcc.correlation...Y.Z       
+* `tBodyAccJerk.mean...X               
+* `tBodyAccJerk.mean...Y               
+* `tBodyAccJerk.mean...Z               
+* `tBodyAccJerk.std...X                
+* `tBodyAccJerk.std...Y                
+* `tBodyAccJerk.std...Z                
  [89] tBodyAccJerk.mad...X                
  [90] tBodyAccJerk.mad...Y                
  [91] tBodyAccJerk.mad...Z                
