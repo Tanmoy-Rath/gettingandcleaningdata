@@ -1,9 +1,11 @@
 The complete list of variables of each feature is available below along with their column numbers in [ ]
 
 **[1] subject_id**
-    An identifier of the subject who carried out the experiment.
+>- An identifier of the subject who carried out the experiment. The identifiers are numbers from 1-30
 
-activity
+**[2]activity**
+>- A factor variable. It represents six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) that each person performed, represented by numbers from 1-6 respectively.
+
 tBodyAcc.mean...X
 tBodyAcc.mean...Y
 tBodyAcc.mean...Z
