@@ -1,6 +1,7 @@
-The complete list of variables of each feature is available below along with their
+The complete list of variables of each feature is available below along with their column numbers in [ ]
 
-subject_id
+**[1] subject_id**
+
 activity
 tBodyAcc.mean...X
 tBodyAcc.mean...Y
