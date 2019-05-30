@@ -20,6 +20,9 @@ Acceleration measurements of body in 3 axis XYZ, calculated in time domain
 
 <hr>
 
+### Description of tidy dataset in *tidydata.txt*
+Each row represents 1 Subject and 1 Activity. The raw data included multiple measurement observations for each Subject and Activity, so these were averaged together for the final tidy dataset.
+
 ### Identifiers
 The first 2 columns in the dataset serve as Identifiers:
 
