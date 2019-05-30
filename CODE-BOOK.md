@@ -36,10 +36,6 @@ The first 2 columns in the dataset serve as Identifiers:
 ### Measurements
 The remaining columns are measurements taken by the smartphone for each Subject and Activity.
 
-|Column Names|Description|
-<table>
- <tr>
-  <td>
 * `tBodyAcc.mean...X`                    
 * `tBodyAcc.mean...Y`                   
 * `tBodyAcc.mean...Z`                   
@@ -601,9 +597,4 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 [561] angle.X.gravityMean.                
 [562] angle.Y.gravityMean.                
 [563] angle.Z.gravityMean.                
-  </td>
-  <td>
-   ufuyfiuyfyu
-  </td>
- </tr>
- </table>
+
