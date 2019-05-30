@@ -579,9 +579,9 @@ Acceleration measurements of body in 3 axis XYZ, calculated in time domain
 [555] fBodyGyroJerkMag.skewness..         
 [556] fBodyGyroJerkMag.kurtosis..         
 [557] angle.tBodyAccMean.gravity.         
-[558] angle.tBodyAccJerkMean..gravityMean.
+[558] angle.tBodyAccJerkMean..gravityMean.    
 [559] angle.tBodyGyroMean.gravityMean.    
-[560] angle.tBodyGyroJerkMean.gravityMean.
+[560] angle.tBodyGyroJerkMean.gravityMean.    
 [561] angle.X.gravityMean.                
 [562] angle.Y.gravityMean.                
 [563] angle.Z.gravityMean.                </b>
