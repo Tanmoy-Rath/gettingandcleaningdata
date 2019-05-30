@@ -29,7 +29,8 @@ The first 2 columns in the dataset serve as Identifiers:
 
 * **`subject_id`**: The ID for the subject participating in the experiment. It ranges from 1 to 30
 * **`activity`**: The type of activity performed by the subject for which the measurements were taken. They are numbered from 1 to 6 respectively and are<br/>
-    **(1) WALKING, (2) WALKING_UPSTAIRS, (3) WALKING_DOWNSTAIRS, (4) SITTING, (5) STANDING & (6) LAYING**
+|(1) WALKING|(2) WALKING_UPSTAIRS|(3) WALKING_DOWNSTAIRS|(4) SITTING|(5) STANDING|(6) LAYING|
+|---|---|---|---|---|---|
 
 ### Measurements
 The remaining columns are measurements taken by the smartphone for each Subject and Activity.
