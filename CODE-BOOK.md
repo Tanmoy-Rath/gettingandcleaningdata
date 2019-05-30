@@ -22,25 +22,45 @@ Acceleration measurements of body in 3 axis XYZ, calculated in time domain
 
 <b>
   [1] subject_id                          
+
   [2] activity                            
+
   [3] tBodyAcc.mean...X                   
+
   [4] tBodyAcc.mean...Y                   
+
   [5] tBodyAcc.mean...Z                   
+
   [6] tBodyAcc.std...X                    
+  
   [7] tBodyAcc.std...Y                    
+  
   [8] tBodyAcc.std...Z                    
+  
   [9] tBodyAcc.mad...X                    
+  
  [10] tBodyAcc.mad...Y                    
+ 
  [11] tBodyAcc.mad...Z                    
- [12] tBodyAcc.max...X                    
- [13] tBodyAcc.max...Y                    
- [14] tBodyAcc.max...Z                    
+ 
+ [12] tBodyAcc.max...X                   
+ 
+ [13] tBodyAcc.max...Y                   
+ 
+ [14] tBodyAcc.max...Z                   
+ 
  [15] tBodyAcc.min...X                    
- [16] tBodyAcc.min...Y                    
+ 
+ [16] tBodyAcc.min...Y                   
+ 
  [17] tBodyAcc.min...Z                    
+ 
  [18] tBodyAcc.sma..                      
- [19] tBodyAcc.energy...X                 
+ 
+ [19] tBodyAcc.energy...X                
+ 
  [20] tBodyAcc.energy...Y                 
+ 
  [21] tBodyAcc.energy...Z                 
  [22] tBodyAcc.iqr...X                    
  [23] tBodyAcc.iqr...Y                    
