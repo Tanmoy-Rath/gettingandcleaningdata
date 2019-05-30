@@ -24,8 +24,8 @@ Acceleration measurements of body in 3 axis XYZ, calculated in time domain
 The first 2 columns in the dataset serve as Identifiers:
 
 
-- [1] subject_id
-- [2] activity
+- **subject_id**: The ID for the subject participating in the experiment
+- **activity**: The type of activity performed by the subject for which the measurements were taken.
 
 
 ### Measurements
