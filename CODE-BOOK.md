@@ -23,10 +23,10 @@ Acceleration measurements of body in 3 axis XYZ, calculated in time domain
 ### Identifiers
 The first 2 columns in the dataset serve as Identifiers:
 
-<b>
+
 - [1] subject_id
 - [2] activity
-</b>
+
 
 ### Measurements
 The remaining columns are measurements taken by the smartphone for each Subject and Activity.
