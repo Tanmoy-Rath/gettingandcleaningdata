@@ -1,6 +1,7 @@
 The complete list of variables of each feature is available below along with their column numbers in [ ]
 
 **[1] subject_id**
+    An identifier of the subject who carried out the experiment.
 
 activity
 tBodyAcc.mean...X
