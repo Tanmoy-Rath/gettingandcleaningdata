@@ -12,10 +12,11 @@ The complete list of variables of each feature is available below along with the
 >- STANDING
 >- LAYING
 
+
 Acceleration measurements of body in 3 axis XYZ, calculated in time domain
->- **[3]tBodyAcc.mean...X**
->- **[4]tBodyAcc.mean...Y**
->- **[5]tBodyAcc.mean...Z**
+- **[3]tBodyAcc.mean...X**
+- **[4]tBodyAcc.mean...Y**
+- **[5]tBodyAcc.mean...Z**
 
 
 **[6]tBodyAcc.std...X**
