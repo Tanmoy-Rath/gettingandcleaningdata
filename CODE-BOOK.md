@@ -39,6 +39,26 @@ The first 2 columns in the dataset serve as Identifiers:
 ### Measurements
 The remaining columns are measurements taken by the smartphone for each Subject and Activity.
 
+#### feature (columns) summary
+tBodyAcc.XYZ
+tGravityAcc.XYZ
+tBodyAccJerk.XYZ
+tBodyGyro.XYZ
+tBodyGyroJerk.XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc.XYZ
+fBodyAccJerk.XYZ
+fBodyGyro.XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+#### features (columns 3 to 563) in detail
 * **`tBodyAcc.mean...X`**                    
 * **`tBodyAcc.mean...Y`**                   
 * **`tBodyAcc.mean...Z`**                   
