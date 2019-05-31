@@ -1,25 +1,3 @@
-The complete list of variables of each feature is available below along with their column numbers in [ ]
-
-**[1] subject_id**
-> An identifier of the subject who carried out the experiment. The identifiers are numbers from 1-30
-
-**[2]activity**
-> A factor variable. It represents six activities(shown below) that each person performed, represented by numbers from 1-6 respectively.
->- WALKING
->- WALKING_UPSTAIRS
->- WALKING_DOWNSTAIRS
->- SITTING
->- STANDING
->- LAYING
-
-
-Acceleration measurements of body in 3 axis XYZ, calculated in time domain
-- **[3]tBodyAcc.mean...X**
-- **[4]tBodyAcc.mean...Y**
-- **[5]tBodyAcc.mean...Z**
-
-<hr>
-
 ### Description of tidy dataset in *tidydata.txt*
 Each row represents 1 Subject and 1 Activity. The raw data included multiple measurement observations for each Subject and Activity, so these were averaged together for the final tidy dataset.
 
