@@ -58,7 +58,7 @@ fBodyGyroJerkMag
 <br/>
 
 ### Identifiers
-A part of tidy data is displayed below
+A part of tidy data is displayed below as a tibble and also as a data-frame
 ```R
 > Tidy_data[1:12,1:6]
 # A tibble: 12 x 6
@@ -77,6 +77,7 @@ A part of tidy data is displayed below
 10          2 SITTING                        0.277          -0.0157            -0.109           -0.987 
 11          2 STANDING                       0.278          -0.0184            -0.106           -0.987 
 12          2 LAYING                         0.281          -0.0182            -0.107           -0.974 
+
 
 > as.data.frame(Tidy_data[1:12,1:6])
    subject_id           activity tBodyAcc.mean...X tBodyAcc.mean...Y tBodyAcc.mean...Z tBodyAcc.std...X
