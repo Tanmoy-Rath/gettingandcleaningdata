@@ -52,7 +52,8 @@ X_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//X_test.txt", data.tab
 y_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//y_test.txt", data.table = FALSE, na.strings=c("",NA))
 ```
 
-#### 3. Combine 
+#### 3. TASK-1: Combine the training and test data to 1 dataset
+The below script combines the training and test datasets to 1 dataset called Train_Test_combo and also checks for any duplicates or NAs.
 ```R
 # Combining data
 train_combined <- cbind( subject_train$V1, y_train$V1, X_train)
