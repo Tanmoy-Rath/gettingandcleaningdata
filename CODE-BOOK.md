@@ -62,25 +62,6 @@ The set of variables that were estimated from these signals are:
 ### Identifiers
 A part of tidy data is displayed below as a tibble and also as a data-frame
 ```R
-> Tidy_data[1:12,1:6]
-# A tibble: 12 x 6
-# Groups:   subject_id [2]
-   subject_id activity           tBodyAcc.mean...X tBodyAcc.mean...Y tBodyAcc.mean...Z tBodyAcc.std...X
-        <int> <fct>                          <dbl>             <dbl>             <dbl>            <dbl>
- 1          1 WALKING                        0.277          -0.0174            -0.111           -0.284 
- 2          1 WALKING_UPSTAIRS               0.255          -0.0240            -0.0973          -0.355 
- 3          1 WALKING_DOWNSTAIRS             0.289          -0.00992           -0.108            0.0300
- 4          1 SITTING                        0.261          -0.00131           -0.105           -0.977 
- 5          1 STANDING                       0.279          -0.0161            -0.111           -0.996 
- 6          1 LAYING                         0.222          -0.0405            -0.113           -0.928 
- 7          2 WALKING                        0.276          -0.0186            -0.106           -0.424 
- 8          2 WALKING_UPSTAIRS               0.247          -0.0214            -0.153           -0.304 
- 9          2 WALKING_DOWNSTAIRS             0.278          -0.0227            -0.117            0.0464
-10          2 SITTING                        0.277          -0.0157            -0.109           -0.987 
-11          2 STANDING                       0.278          -0.0184            -0.106           -0.987 
-12          2 LAYING                         0.281          -0.0182            -0.107           -0.974 
-
-
 > as.data.frame(Tidy_data[1:12,1:6])
    subject_id           activity tBodyAcc.mean...X tBodyAcc.mean...Y tBodyAcc.mean...Z tBodyAcc.std...X
 1           1            WALKING         0.2773308      -0.017383819        -0.1111481      -0.28374026
