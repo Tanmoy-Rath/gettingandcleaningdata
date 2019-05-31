@@ -53,7 +53,7 @@ y_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//y_test.txt", data.tab
 ```
 
 #### 3. TASK-1: Combine the training and test data to 1 dataset
-The below script combines the training and test datasets to 1 dataset called Train_Test_combo and also checks for any duplicates or NAs.
+The below script combines the training and test datasets to one dataset called ***Train_Test_combo*** and also checks for any duplicates or NAs.
 ```R
 # Combining data
 train_combined <- cbind( subject_train$V1, y_train$V1, X_train)
@@ -71,4 +71,29 @@ Train_Test_combo <- rbind(train_combined, test_combined) %>% distinct()
 # checking for NAs, found none
 sum(is.na(Train_Test_combo))
 rm(train_combined, test_combined)
+```
+
+A part of the dataset is shown below for better understanding
+```R
+> Train_Test_combo[1:6,1:8]
+  subject_id activity        V1          V2         V3         V4         V5         V6
+1          1        5 0.2885845 -0.02029417 -0.1329051 -0.9952786 -0.9831106 -0.9135264
+2          1        5 0.2784188 -0.01641057 -0.1235202 -0.9982453 -0.9753002 -0.9603220
+3          1        5 0.2796531 -0.01946716 -0.1134617 -0.9953796 -0.9671870 -0.9789440
+4          1        5 0.2791739 -0.02620065 -0.1232826 -0.9960915 -0.9834027 -0.9906751
+5          1        5 0.2766288 -0.01656965 -0.1153619 -0.9981386 -0.9808173 -0.9904816
+6          1        5 0.2771988 -0.01009785 -0.1051373 -0.9973350 -0.9904868 -0.9954200
+> 
+```
+
+#### 4. TASK-2: Extract only the measurements on the mean and standard deviation for each measurement
+Since ***subject_id*** and ***activity*** become the first 2 columns
+```R
+required_columns <- grep("mean\\(\\)|std\\(\\)", features$V2) + 2
+# 2 is added because, the first 2 columns (subject_id,activity) have shifted all column numbers by 2
+
+Mean_Std <- Train_Test_combo[,required_columns]
+# I have chosen mean() and std() columns only, because meanFreq() is a weighted mean, calculated differently.
+# Quoted from features_info.txt:- Weighted average of the frequency components to obtain a mean frequency
+rm(required_columns)
 ```
