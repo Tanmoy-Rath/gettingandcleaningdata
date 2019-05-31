@@ -21,7 +21,7 @@ You should create one R script called **run_analysis.R** that does the following
 
 ### run_analysis.R explaination
 #### 1. Download and unzip the file to your working directory
-You can do this either by the script given below or download directly via the browser.
+You can do this either by the script given below or download directly via the browser. Be sure to check the files *README.txt* and *features_info.txt*.
 ```R
 file_link <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 TOTAL_PATH <- file.path(getwd(),"zip_directory_UCI")
@@ -33,4 +33,41 @@ if(  !dir.exists(TOTAL_PATH)  ){
 }else{
         print("Directory/File(s) already exist(s)...")
 }
+```
+
+#### 2. Read the relevant files to system memory
+The script below reads the files to system memory
+```R
+library(data.table)
+
+features <- fread("zip_directory_UCI//UCI HAR Dataset//features.txt", data.table = FALSE, na.strings=c("",NA))
+activity_labels <- fread("zip_directory_UCI//UCI HAR Dataset//activity_labels.txt", data.table = FALSE, na.strings=c("",NA))
+
+subject_train <- fread("zip_directory_UCI//UCI HAR Dataset//train//subject_train.txt", data.table = FALSE, na.strings=c("",NA))
+X_train <- fread("zip_directory_UCI//UCI HAR Dataset//train//X_train.txt", data.table = FALSE, na.strings=c("",NA))
+y_train <- fread("zip_directory_UCI//UCI HAR Dataset//train//y_train.txt", data.table = FALSE, na.strings=c("",NA))
+
+subject_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//subject_test.txt", data.table = FALSE, na.strings=c("",NA))
+X_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//X_test.txt", data.table = FALSE, na.strings=c("",NA))
+y_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//y_test.txt", data.table = FALSE, na.strings=c("",NA))
+```
+
+#### 3. Combine 
+```R
+# Combining data
+train_combined <- cbind( subject_train$V1, y_train$V1, X_train)
+colnames(train_combined)[1:2] <- c("subject_id","activity")
+rm(subject_train, y_train, X_train)
+
+test_combined <- cbind( subject_test$V1, y_test$V1, X_test)
+colnames(test_combined)[1:2] <- c("subject_id","activity")
+rm(subject_test, y_test, X_test)
+
+# Combining Train and Test, remove duplicates if they exist
+library(dplyr)
+Train_Test_combo <- rbind(train_combined, test_combined) %>% distinct()
+
+# checking for NAs, found none
+sum(is.na(Train_Test_combo))
+rm(train_combined, test_combined)
 ```
