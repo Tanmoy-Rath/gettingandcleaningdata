@@ -22,7 +22,7 @@ You should create one R script called **run_analysis.R** that does the following
 <br/>
 
 ### run_analysis.R explaination
-#### 1. Download and unzip the file to your working directory
+#### Download and unzip the file to your working directory
 You can do this either by the script given below or download directly via the browser. Be sure to check the files *README.txt* and *features_info.txt*.
 ```R
 file_link <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
@@ -39,7 +39,7 @@ if(  !dir.exists(TOTAL_PATH)  ){
 
 <br/>
 
-#### 2. Read the relevant files to system memory
+#### Read the relevant files to system memory
 The script below reads the files to system memory
 ```R
 library(data.table)
@@ -58,7 +58,7 @@ y_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//y_test.txt", data.tab
 
 <br/>
 
-#### 3. TASK-1: Combine the training and test data to 1 dataset
+#### TASK-1: Combine the training and test data to 1 dataset
 The below script combines the training and test datasets to one dataset called ***Train_Test_combo*** and also checks for any duplicates or NAs.
 ```R
 # Combining data
@@ -94,7 +94,7 @@ A part of the dataset is shown below for better understanding.
 
 <br/>
 
-#### 4. TASK-2: Extract only the measurements on the mean and standard deviation for each measurement
+#### TASK-2: Extract only the measurements on the mean and standard deviation for each measurement
 Since ***subject_id*** and ***activity*** become the first 2 columns, we have to add 2 to grep results to match to the correct column numbers. Since meanFreq() is a weighted mean, calculated differently and also nothing has been said about it ( to include or not ) in the question, I decided to drop it from the grep() results.
 ```R
 required_columns <- grep("mean\\(\\)|std\\(\\)", features$V2) + 2
@@ -104,4 +104,13 @@ Mean_Std <- Train_Test_combo[,required_columns]
 # I have chosen mean() and std() columns only, because meanFreq() is a weighted mean, calculated differently.
 # Quoted from features_info.txt:- Weighted average of the frequency components to obtain a mean frequency
 rm(required_columns)
+```
+
+<br/>
+
+#### TASK-3: Use descriptive activity names to name the activities in the data set
+The activity names viz. 
+```R
+activity_labels <- fread("zip_directory_UCI//UCI HAR Dataset//activity_labels.txt", data.table = FALSE, na.strings=c("",NA))
+Train_Test_combo$activity <- factor(activity_labels$V2[Train_Test_combo$activity], levels=activity_labels$V2)
 ```
