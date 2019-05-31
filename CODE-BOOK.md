@@ -37,12 +37,12 @@ The set of variables that were estimated from these signals are:
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable as follows:
 
-angle.tBodyAccMean.gravity.         
-angle.tBodyAccJerkMean..gravityMean.
-angle.X.gravityMean.                
-angle.Y.gravityMean.                
-angle.Z.gravityMean.              
-angle.tBodyGyroMean.gravityMean.    
+angle.tBodyAccMean.gravity.<br/>
+angle.tBodyAccJerkMean..gravityMean.<br/>
+angle.X.gravityMean.<br/>
+angle.Y.gravityMean.<br/>
+angle.Z.gravityMean.<br/>
+angle.tBodyGyroMean.gravityMean.<br/>
 angle.tBodyGyroJerkMean.gravityMean.
 
 This is the way, in which the columns have been named.
