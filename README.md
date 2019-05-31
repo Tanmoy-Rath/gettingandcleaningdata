@@ -19,6 +19,8 @@ You should create one R script called **run_analysis.R** that does the following
 - Appropriately labels the data set with descriptive variable names.
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+<br/>
+
 ### run_analysis.R explaination
 #### 1. Download and unzip the file to your working directory
 You can do this either by the script given below or download directly via the browser. Be sure to check the files *README.txt* and *features_info.txt*.
@@ -34,6 +36,8 @@ if(  !dir.exists(TOTAL_PATH)  ){
         print("Directory/File(s) already exist(s)...")
 }
 ```
+
+<br/>
 
 #### 2. Read the relevant files to system memory
 The script below reads the files to system memory
@@ -51,6 +55,8 @@ subject_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//subject_test.tx
 X_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//X_test.txt", data.table = FALSE, na.strings=c("",NA))
 y_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//y_test.txt", data.table = FALSE, na.strings=c("",NA))
 ```
+
+<br/>
 
 #### 3. TASK-1: Combine the training and test data to 1 dataset
 The below script combines the training and test datasets to one dataset called ***Train_Test_combo*** and also checks for any duplicates or NAs.
@@ -85,6 +91,8 @@ A part of the dataset is shown below for better understanding
 6          1        5 0.2771988 -0.01009785 -0.1051373 -0.9973350 -0.9904868 -0.9954200 -0.9976274 -0.9902177
 > 
 ```
+
+<br/>
 
 #### 4. TASK-2: Extract only the measurements on the mean and standard deviation for each measurement
 Since ***subject_id*** and ***activity*** become the first 2 columns, we have to add 2 to grep results to match to the correct column numbers.
