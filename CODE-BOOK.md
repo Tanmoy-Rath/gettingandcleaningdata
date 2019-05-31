@@ -25,21 +25,18 @@ Each row represents 1 Subject and 1 Activity. The raw data included multiple mea
 
 <br/>
 
-### Identifiers
-The first 2 columns in the dataset serve as Identifiers:
+### Abbreviations explained
+Acc : signals from accelerometer
+Gyro : signals from gyroscope, measured in 3-axis X,Y,Z
+X/Y/Z : signals measured along the respective axis
+Body : body component of acceleration signals
+Gravity : gravity component of acceleration signals
+t : prefix 't' denotes time domain signals
+f : prefix 'f' denotes frequency domain signals
+tBodyAccJerk : linear acceleration of body derieved in time domain, called jerk signals
+tBodyGyroJerk : angular velocity of body derieved in time domain, called jerk signals
+Mag : magnitude of the 3-dimensional signals calculated using the Euclidean norm
 
-* **`subject_id`**: The ID for the subject participating in the experiment. It ranges from 1 to 30
-* **`activity`**: The type of activity performed by the subject for which the measurements were taken. They are numbered from 1 to 6 respectively and are:
-
-|(1) WALKING|(2) WALKING_UPSTAIRS|(3) WALKING_DOWNSTAIRS|(4) SITTING|(5) STANDING|(6) LAYING|
-|---|---|---|---|---|---|
-
-<br/>
-
-### Measurements
-The remaining columns are measurements taken by the smartphone for each Subject and Activity.
-
-#### feature (columns) summary
 tBodyAcc.XYZ
 tGravityAcc.XYZ
 tBodyAccJerk.XYZ
@@ -57,6 +54,22 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
+
+<br/>
+
+### Identifiers
+The first 2 columns in the dataset serve as Identifiers:
+
+* **`subject_id`**: The ID for the subject participating in the experiment. It ranges from 1 to 30
+* **`activity`**: The type of activity performed by the subject for which the measurements were taken. They are numbered from 1 to 6 respectively and are:
+
+|(1) WALKING|(2) WALKING_UPSTAIRS|(3) WALKING_DOWNSTAIRS|(4) SITTING|(5) STANDING|(6) LAYING|
+|---|---|---|---|---|---|
+
+<br/>
+
+### Measurements
+The remaining columns are measurements taken by the smartphone for each Subject and Activity.
 
 #### features (columns 3 to 563) in detail
 * **`tBodyAcc.mean...X`**                    
