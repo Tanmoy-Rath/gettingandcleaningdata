@@ -79,7 +79,7 @@ sum(is.na(Train_Test_combo))
 rm(train_combined, test_combined)
 ```
 
-A part of the dataset is shown below for better understanding
+A part of the dataset is shown below for better understanding.
 ```R
 > Train_Test_combo[1:6,1:10]
   subject_id activity        V1          V2         V3         V4         V5         V6         V7         V8
@@ -95,7 +95,7 @@ A part of the dataset is shown below for better understanding
 <br/>
 
 #### 4. TASK-2: Extract only the measurements on the mean and standard deviation for each measurement
-Since ***subject_id*** and ***activity*** become the first 2 columns, we have to add 2 to grep results to match to the correct column numbers.
+Since ***subject_id*** and ***activity*** become the first 2 columns, we have to add 2 to grep results to match to the correct column numbers. Since meanFreq() is a weighted mean, calculated differently and also nothing has been said about it ( to include or not ) in the question, I decided to drop it from the grep() results.
 ```R
 required_columns <- grep("mean\\(\\)|std\\(\\)", features$V2) + 2
 # 2 is added because, the first 2 columns (subject_id,activity) have shifted all column numbers by 2
