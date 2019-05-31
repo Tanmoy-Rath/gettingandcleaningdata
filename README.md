@@ -1,2 +1,2 @@
 # Getting and Cleaning data
-## Course Poject on UCI HAR Dataset
+## Course Project on UCI HAR Dataset
