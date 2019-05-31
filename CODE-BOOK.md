@@ -6,7 +6,7 @@ Each row represents 1 Subject and 1 Activity. The raw data included multiple mea
 ### Abbreviations explained
 **`Acc`** : signals from accelerometer<br/>
 **`Gyro`** : signals from gyroscope, measured in 3-axis X,Y,Z<br/>
-**`X/Y/Z`** : signals measured along the respective axis<br/>
+**`X/Y/Z`** : signals measured along the respective 3-dimensional axis<br/>
 **`Body`** : body component of acceleration signals<br/>
 **`Gravity`** : gravity component of acceleration signals<br/>
 **`t`** : prefix 't' denotes time domain signals<br/>
