@@ -19,4 +19,18 @@ You should create one R script called **run_analysis.R** that does the following
 - Appropriately labels the data set with descriptive variable names.
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+### run_analysis.R explaination
+##### 1. Download and unzip the file to your working directory
+You can either do this by the script given below or do it directly via the browser.
+```R
+file_link <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+TOTAL_PATH <- file.path(getwd(),"zip_directory_UCI")
 
+if(  !dir.exists(TOTAL_PATH)  ){
+        # WARNING: If you are on MAC, you may need to set method="curl"
+        download.file(file_link, "UCI HAR Dataset.zip")
+        (unzipped_file_list <- unzip("UCI HAR Dataset.zip", exdir="zip_directory_UCI"))
+}else{
+        print("Directory/File(s) already exist(s)...")
+}
+```
