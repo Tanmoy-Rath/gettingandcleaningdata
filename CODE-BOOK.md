@@ -70,9 +70,9 @@ The first 2 columns in the dataset serve as Identifiers:
 <br/>
 
 ### Measurements
-The remaining columns are measurements taken by the smartphone for each Subject and Activity.
+The remaining columns are measurements taken by the smartphone for each Subject and Activity. They have been named based on what they measure or how they are measured.
+> eg. angle.tBodyAccJerkMean..gravityMean. : is the data variable (or column), containing the angle between linear acceleration of body and mean of gravity component of acceleration. see **_Abbreviations explained_** for details.
 
-#### features (columns 3 to 563) in detail
 * **`tBodyAcc.mean...X`**                    
 * **`tBodyAcc.mean...Y`**                   
 * **`tBodyAcc.mean...Z`**                   
