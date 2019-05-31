@@ -77,7 +77,21 @@ A part of tidy data is displayed below
 10          2 SITTING                        0.277          -0.0157            -0.109           -0.987 
 11          2 STANDING                       0.278          -0.0184            -0.106           -0.987 
 12          2 LAYING                         0.281          -0.0182            -0.107           -0.974 
-> 
+
+> as.data.frame(Tidy_data[1:12,1:6])
+   subject_id           activity tBodyAcc.mean...X tBodyAcc.mean...Y tBodyAcc.mean...Z tBodyAcc.std...X
+1           1            WALKING         0.2773308      -0.017383819        -0.1111481      -0.28374026
+2           1   WALKING_UPSTAIRS         0.2554617      -0.023953149        -0.0973020      -0.35470803
+3           1 WALKING_DOWNSTAIRS         0.2891883      -0.009918505        -0.1075662       0.03003534
+4           1            SITTING         0.2612376      -0.001308288        -0.1045442      -0.97722901
+5           1           STANDING         0.2789176      -0.016137590        -0.1106018      -0.99575990
+6           1             LAYING         0.2215982      -0.040513953        -0.1132036      -0.92805647
+7           2            WALKING         0.2764266      -0.018594920        -0.1055004      -0.42364284
+8           2   WALKING_UPSTAIRS         0.2471648      -0.021412113        -0.1525139      -0.30437641
+9           2 WALKING_DOWNSTAIRS         0.2776153      -0.022661416        -0.1168129       0.04636668
+10          2            SITTING         0.2770874      -0.015687994        -0.1092183      -0.98682228
+11          2           STANDING         0.2779115      -0.018420827        -0.1059085      -0.98727189
+12          2             LAYING         0.2813734      -0.018158740        -0.1072456      -0.97405946
 ```
 
 The first 2 columns in the dataset serve as Identifiers:
