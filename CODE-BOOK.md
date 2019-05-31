@@ -26,16 +26,16 @@ Each row represents 1 Subject and 1 Activity. The raw data included multiple mea
 <br/>
 
 ### Abbreviations explained
-Acc : signals from accelerometer<br/>
-Gyro : signals from gyroscope, measured in 3-axis X,Y,Z<br/>
-X/Y/Z : signals measured along the respective axis<br/>
-Body : body component of acceleration signals<br/>
-Gravity : gravity component of acceleration signals<br/>
-t : prefix 't' denotes time domain signals<br/>
-f : prefix 'f' denotes frequency domain signals<br/>
-tBodyAccJerk : linear acceleration of body derieved in time domain, called jerk signals<br/>
-tBodyGyroJerk : angular velocity of body derieved in time domain, called jerk signals<br/>
-Mag : magnitude of the 3-dimensional signals calculated using the Euclidean norm
+**`Acc`** : signals from accelerometer<br/>
+**`Gyro`** : signals from gyroscope, measured in 3-axis X,Y,Z<br/>
+**`X/Y/Z`** : signals measured along the respective axis<br/>
+**`Body`** : body component of acceleration signals<br/>
+**`Gravity`** : gravity component of acceleration signals<br/>
+**`t`** : prefix 't' denotes time domain signals<br/>
+**`f`** : prefix 'f' denotes frequency domain signals<br/>
+**`tBodyAccJerk`** : linear acceleration of body derieved in time domain, called jerk signals<br/>
+**`tBodyGyroJerk`** : angular velocity of body derieved in time domain, called jerk signals<br/>
+**`Mag`** : magnitude of the 3-dimensional signals calculated using the Euclidean norm
 
 The set of variables that were estimated from these signals are: 
 
