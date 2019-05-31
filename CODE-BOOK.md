@@ -57,24 +57,6 @@ The set of variables that were estimated from these signals are:
 **`bandsEnergy`** : Energy of a frequency interval within the 64 bins of the FFT of each window<br/>
 **`angle`** : Angle between to vectors<br/>
 
-tBodyAcc.XYZ
-tGravityAcc.XYZ
-tBodyAccJerk.XYZ
-tBodyGyro.XYZ
-tBodyGyroJerk.XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc.XYZ
-fBodyAccJerk.XYZ
-fBodyGyro.XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
-
 <br/>
 
 ### Identifiers
