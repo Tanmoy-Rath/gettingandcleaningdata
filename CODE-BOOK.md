@@ -33,7 +33,19 @@ The set of variables that were estimated from these signals are:
 **`skewness`** : skewness of the frequency domain signal<br/>
 **`kurtosis`** : kurtosis of the frequency domain signal<br/>
 **`bandsEnergy`** : Energy of a frequency interval within the 64 bins of the FFT of each window<br/>
-**`angle`** : Angle between to vectors<br/>
+**`angle`** : Angle between to vectors
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable as follows:
+
+angle.tBodyAccMean.gravity.         
+angle.tBodyAccJerkMean..gravityMean.
+angle.X.gravityMean.                
+angle.Y.gravityMean.                
+angle.Z.gravityMean.              
+angle.tBodyGyroMean.gravityMean.    
+angle.tBodyGyroJerkMean.gravityMean.
+
+This is the way, in which the columns have been named.
 
 <br/>
 
