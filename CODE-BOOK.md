@@ -50,7 +50,7 @@ This is the way, in which the columns have been named.
 <br/>
 
 ### Identifiers
-A part of tidy data is displayed below as a tibble and also as a data-frame
+A part of tidy data is displayed below as a data-frame
 ```R
 > as.data.frame(Tidy_data[1:12,1:6])
    subject_id           activity tBodyAcc.mean...X tBodyAcc.mean...Y tBodyAcc.mean...Z tBodyAcc.std...X
