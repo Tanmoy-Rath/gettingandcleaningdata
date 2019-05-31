@@ -23,9 +23,10 @@ Acceleration measurements of body in 3 axis XYZ, calculated in time domain
 ### Description of tidy dataset in *tidydata.txt*
 Each row represents 1 Subject and 1 Activity. The raw data included multiple measurement observations for each Subject and Activity, so these were averaged together for the final tidy dataset.
 
+<br/>
+
 ### Identifiers
 The first 2 columns in the dataset serve as Identifiers:
-
 
 * **`subject_id`**: The ID for the subject participating in the experiment. It ranges from 1 to 30
 * **`activity`**: The type of activity performed by the subject for which the measurements were taken. They are numbered from 1 to 6 respectively and are:
