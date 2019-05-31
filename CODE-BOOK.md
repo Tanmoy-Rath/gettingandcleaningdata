@@ -36,16 +36,16 @@ The first 2 columns in the dataset serve as Identifiers:
 ### Measurements
 The remaining columns are measurements taken by the smartphone for each Subject and Activity.
 
-* `tBodyAcc.mean...X`                    
-* `tBodyAcc.mean...Y`                   
-* `tBodyAcc.mean...Z`                   
-* `tBodyAcc.std...X`                      
-* `tBodyAcc.std...Y`                      
-* `tBodyAcc.std...Z`                      
-* `tBodyAcc.mad...X`                      
-* `tBodyAcc.mad...Y`                     
-* `tBodyAcc.mad...Z`                     
-* `tBodyAcc.max...X`                    
+* **`tBodyAcc.mean...X`**                    
+* **`tBodyAcc.mean...Y`**                   
+* **`tBodyAcc.mean...Z`**                   
+* **`tBodyAcc.std...X`**                      
+* **`tBodyAcc.std...Y`**                      
+* **`tBodyAcc.std...Z`**                      
+* **`tBodyAcc.mad...X`**                      
+* **`tBodyAcc.mad...Y`**                     
+* **`tBodyAcc.mad...Z`**                     
+* **`tBodyAcc.max...X`**                    
 * `tBodyAcc.max...Y`                    
 * `tBodyAcc.max...Z`                    
 * `tBodyAcc.min...X`                     
