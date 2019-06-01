@@ -23,7 +23,7 @@ You should create one R script called **run_analysis.R** that does the following
 
 ### _run_analysis.R_ explaination
 #### Download and unzip the file to your working directory
-You can do this either by the script given below or download directly via the browser. Be sure to check the files *README.txt* and *features_info.txt*.
+You can do this either by the script given below or download directly via the browser. Be sure to check the files ***README.txt*** and ***features_info.txt***.
 ```R
 file_link <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 TOTAL_PATH <- file.path(getwd(),"zip_directory_UCI")
