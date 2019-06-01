@@ -19,7 +19,7 @@ You should create one R script called **run_analysis.R** that does the following
 - Appropriately labels the data set with descriptive variable names.
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-<br/>
+<hr/>
 
 ### _run_analysis.R_ explaination
 #### Download and unzip the file to your working directory
@@ -37,7 +37,7 @@ if(  !dir.exists(TOTAL_PATH)  ){
 }
 ```
 
-<br/>
+<hr/>
 
 #### Read the relevant files to system memory
 The script below reads the files to system memory
@@ -56,7 +56,7 @@ X_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//X_test.txt", data.tab
 y_test <- fread("zip_directory_UCI//UCI HAR Dataset//test//y_test.txt", data.table = FALSE, na.strings=c("",NA))
 ```
 
-<br/>
+<hr/>
 
 #### TASK-1: Combine the training and test data to 1 dataset
 The below script combines the training and test datasets to one dataset called ***Train_Test_combo*** and also checks for any duplicates or NAs.
@@ -93,7 +93,7 @@ A part of the dataset structure is shown below for better understanding.
  $ V6        : num  -0.914 -0.96 -0.979 -0.991 -0.99 ...
 ```
 
-<br/>
+<hr/>
 
 #### TASK-2: Extract only the measurements on the mean and standard deviation for each measurement
 Since ***subject_id*** and ***activity*** become the first 2 columns, we have to add 2 to grep results to match to the correct column numbers. Since meanFreq() is a weighted mean, calculated differently and also nothing has been said about it ( to include or not ) in the question, I decided to drop it from the grep() results.
@@ -126,7 +126,7 @@ A part of the Mean_Std structure is shown below for better understanding.
  $ tGravityAcc-mean()-Y       : num  -0.141 -0.142 -0.142 -0.144 -0.149 ...
 ```
 
-<br/>
+<hr/>
 
 #### TASK-3: Use descriptive activity names to name the activities in the data set
 The activity names viz. ( _WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING & LAYING_ ) are represented by numbers from 1 to 6. The below script replaces the numbers with their respective activity names and converts them into factors.
@@ -135,7 +135,7 @@ activity_labels <- fread("zip_directory_UCI//UCI HAR Dataset//activity_labels.tx
 Train_Test_combo$activity <- factor(activity_labels$V2[Train_Test_combo$activity], levels=activity_labels$V2)
 ```
 
-<br/>
+<hr/>
 
 #### TASK-4: Appropriately label the data set with descriptive variable names.
 ```R
@@ -160,7 +160,7 @@ A part of the Train_Test_combo dataset is shown below
 > 
 ```
 
-<br/>
+<hr/>
 
 #### TASK-5: From the data set in TASK 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 ```R
