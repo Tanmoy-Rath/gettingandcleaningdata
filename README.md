@@ -182,5 +182,4 @@ Classes ‘grouped_df’, ‘tbl_df’, ‘tbl’ and 'data.frame':	180 obs. of 
  $ tBodyAcc.std...X                    : num  -0.284 -0.355 0.03 -0.977 -0.996 ...
  $ tBodyAcc.std...Y                    : num  0.11446 -0.00232 -0.03194 -0.92262 -0.97319 ...
 ```
-
-<b>THE END</b>
+<b align="center">THE END</b>
