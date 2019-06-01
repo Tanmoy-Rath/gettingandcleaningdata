@@ -94,25 +94,25 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 * **`[9] tBodyAcc-mad()-X`**                      
 * **`[10] tBodyAcc-mad()-Y`**                     
 * **`[11] tBodyAcc-mad()-Z`**                     
- [10] * **`[12] tBodyAcc-max()-X`**                     
- [11] * **`[13] tBodyAcc-max()-Y`**                     
- [12] * **`[14] tBodyAcc-max()-Z`**                     
- [13] * **`[15] tBodyAcc-min()-X`**                     
- [14] * **`[16] tBodyAcc-min()-Y`**                     
- [15] * **`[17] tBodyAcc-min()-Z`**                     
- [16] * **`[18] tBodyAcc-sma()`**                       
- [17] * **`[19] tBodyAcc-energy()-X`**                  
- [18] * **`[20] tBodyAcc-energy()-Y`**                  
- [19] * **`[21] tBodyAcc-energy()-Z`**                  
- [20] * **`[22] tBodyAcc-iqr()-X`**                     
- [21] * **`[23] tBodyAcc-iqr()-Y`**                     
- [22] * **`[24] tBodyAcc-iqr()-Z`**                     
- [23] * **`[25] tBodyAcc-entropy()-X`**                 
- [24] * **`[26] tBodyAcc-entropy()-Y`**                 
- [25] * **`[27] tBodyAcc-entropy()-Z`**                 
- [26] * **`[28] tBodyAcc-arCoeff()-X,1`**               
- [27] * **`[29] tBodyAcc-arCoeff()-X,2`**               
- [28] * **`[30] tBodyAcc-arCoeff()-X,3`**               
+* **`[12] tBodyAcc-max()-X`**                     
+* **`[13] tBodyAcc-max()-Y`**                     
+* **`[14] tBodyAcc-max()-Z`**                     
+* **`[15] tBodyAcc-min()-X`**                     
+* **`[16] tBodyAcc-min()-Y`**                     
+* **`[17] tBodyAcc-min()-Z`**                     
+* **`[18] tBodyAcc-sma()`**                       
+* **`[19] tBodyAcc-energy()-X`**                  
+* **`[20] tBodyAcc-energy()-Y`**                  
+* **`[21] tBodyAcc-energy()-Z`**                  
+* **`[22] tBodyAcc-iqr()-X`**                     
+* **`[23] tBodyAcc-iqr()-Y`**                     
+* **`[24] tBodyAcc-iqr()-Z`**                     
+* **`[25] tBodyAcc-entropy()-X`**                 
+* **`[26] tBodyAcc-entropy()-Y`**                 
+* **`[27] tBodyAcc-entropy()-Z`**                 
+* **`[28] tBodyAcc-arCoeff()-X,1`**               
+* **`[29] tBodyAcc-arCoeff()-X,2`**               
+* **`[30] tBodyAcc-arCoeff()-X,3`**               
  [29] * **`[31] tBodyAcc-arCoeff()-X,4`**               
  [30] * **`[32] tBodyAcc-arCoeff()-Y,1`**               
  [31] * **`[33] tBodyAcc-arCoeff()-Y,2`**               
