@@ -85,7 +85,7 @@ The first 2 columns in the dataset serve as Identifiers:
 The remaining columns are measurements taken by the smartphone for each Subject and Activity. They have been named based on what they measure or how they are measured.
 > e.g. **angle.tBodyAccJerkMean..gravityMean.** : is the data variable (or column), containing the angle between mean of linear acceleration of body and mean of gravity component of acceleration. see **_Abbreviations explained_** for more details.
 
-* **`tBodyAcc.mean...X`**                    
+* **`[1] tBodyAcc.mean...X`**                    
 * **`tBodyAcc.mean...Y`**                   
 * **`tBodyAcc.mean...Z`**                   
 * **`tBodyAcc.std...X`**                      
@@ -171,48 +171,48 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 * **`tBodyAccJerk.std...X`**                
 * **`tBodyAccJerk.std...Y`**                
 * **`tBodyAccJerk.std...Z`**                
- [89] tBodyAccJerk.mad...X                
- [90] tBodyAccJerk.mad...Y                
- [91] tBodyAccJerk.mad...Z                
- [92] tBodyAccJerk.max...X                
- [93] tBodyAccJerk.max...Y                
- [94] tBodyAccJerk.max...Z                
- [95] tBodyAccJerk.min...X                
- [96] tBodyAccJerk.min...Y                
- [97] tBodyAccJerk.min...Z                
- [98] tBodyAccJerk.sma..                  
- [99] tBodyAccJerk.energy...X             
-[100] tBodyAccJerk.energy...Y             
-[101] tBodyAccJerk.energy...Z             
-[102] tBodyAccJerk.iqr...X                
-[103] tBodyAccJerk.iqr...Y                
-[104] tBodyAccJerk.iqr...Z                
-[105] tBodyAccJerk.entropy...X            
-[106] tBodyAccJerk.entropy...Y            
-[107] tBodyAccJerk.entropy...Z            
-[108] tBodyAccJerk.arCoeff...X.1          
-[109] tBodyAccJerk.arCoeff...X.2          
-[110] tBodyAccJerk.arCoeff...X.3          
-[111] tBodyAccJerk.arCoeff...X.4          
-[112] tBodyAccJerk.arCoeff...Y.1          
-[113] tBodyAccJerk.arCoeff...Y.2          
-[114] tBodyAccJerk.arCoeff...Y.3          
-[115] tBodyAccJerk.arCoeff...Y.4          
-[116] tBodyAccJerk.arCoeff...Z.1          
-[117] tBodyAccJerk.arCoeff...Z.2          
-[118] tBodyAccJerk.arCoeff...Z.3          
-[119] tBodyAccJerk.arCoeff...Z.4          
-[120] tBodyAccJerk.correlation...X.Y      
-[121] tBodyAccJerk.correlation...X.Z      
-[122] tBodyAccJerk.correlation...Y.Z      
-[123] tBodyGyro.mean...X                  
-[124] tBodyGyro.mean...Y                  
-[125] tBodyGyro.mean...Z                  
-[126] tBodyGyro.std...X                   
-[127] tBodyGyro.std...Y                   
-[128] tBodyGyro.std...Z                   
-[129] tBodyGyro.mad...X                   
-[130] tBodyGyro.mad...Y                   
+* **`tBodyAccJerk.mad...X`**                
+* **`tBodyAccJerk.mad...Y`**                
+* **`tBodyAccJerk.mad...Z`**                
+* **`tBodyAccJerk.max...X`**                
+* **`tBodyAccJerk.max...Y`**                
+* **`tBodyAccJerk.max...Z`**                
+* **`tBodyAccJerk.min...X`**                
+* **`tBodyAccJerk.min...Y`**                
+* **`tBodyAccJerk.min...Z`**                
+* **`tBodyAccJerk.sma..`**                  
+* **`tBodyAccJerk.energy...X`**             
+* **`tBodyAccJerk.energy...Y`**             
+* **`tBodyAccJerk.energy...Z`**             
+* **`tBodyAccJerk.iqr...X`**                
+* **`tBodyAccJerk.iqr...Y`**                
+* **`tBodyAccJerk.iqr...Z`**                
+* **`tBodyAccJerk.entropy...X`**            
+* **`tBodyAccJerk.entropy...Y`**            
+* **`tBodyAccJerk.entropy...Z`**            
+* **`tBodyAccJerk.arCoeff...X.1`**          
+* **`tBodyAccJerk.arCoeff...X.2`**          
+* **`tBodyAccJerk.arCoeff...X.3`**          
+* **`tBodyAccJerk.arCoeff...X.4`**          
+* **`tBodyAccJerk.arCoeff...Y.1`**          
+* **`tBodyAccJerk.arCoeff...Y.2`**          
+* **`tBodyAccJerk.arCoeff...Y.3`**          
+* **`tBodyAccJerk.arCoeff...Y.4`**          
+* **`tBodyAccJerk.arCoeff...Z.1`**          
+* **`tBodyAccJerk.arCoeff...Z.2`**          
+* **`tBodyAccJerk.arCoeff...Z.3`**          
+* **`tBodyAccJerk.arCoeff...Z.4`**          
+* **`tBodyAccJerk.correlation...X.Y`**      
+* **`tBodyAccJerk.correlation...X.Z`**      
+* **`tBodyAccJerk.correlation...Y.Z`**      
+* **`tBodyGyro.mean...X`**                  
+* **`tBodyGyro.mean...Y`**                  
+* **`tBodyGyro.mean...Z`**                  
+* **`tBodyGyro.std...X`**                   
+* **`tBodyGyro.std...Y`**                   
+* **`tBodyGyro.std...Z`**                   
+* **`tBodyGyro.mad...X`**                   
+* **`tBodyGyro.mad...Y`**                   
 [131] tBodyGyro.mad...Z                   
 [132] tBodyGyro.max...X                   
 [133] tBodyGyro.max...Y                   
