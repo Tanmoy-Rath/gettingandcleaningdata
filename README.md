@@ -160,3 +160,12 @@ A part of the Train_Test_combo dataset is shown below
 > 
 ```
 
+<br/>
+
+#### TASK-5: From the data set in TASK 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+```R
+library(dplyr)
+Tidy_data <- Train_Test_combo %>% group_by(subject_id, activity) %>% summarise_all(mean)
+
+write.table(Tidy_data, "Tidydata.txt", row.names=FALSE, quote=FALSE)
+```
