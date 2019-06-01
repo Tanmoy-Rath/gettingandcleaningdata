@@ -656,12 +656,8 @@ The column names are listed below along with their column numbers within [ ].
 >  
 ```
 
-* **`[3] tBodyAcc.mean...X`**                     
-* **`[4] tBodyAcc.mean...Y`**                     
-* **`[5] tBodyAcc.mean...Z`**                     
-* **`[6] tBodyAcc.std...X`**                      
-* **`[7] tBodyAcc.std...Y`**                      
-* **`[8] tBodyAcc.std...Z`**                      
+|* **`[3] tBodyAcc.mean...X`**|* **`[4] tBodyAcc.mean...Y`**|* **`[5] tBodyAcc.mean...Z`**|
+|* **`[6] tBodyAcc.std...X`**|* **`[7] tBodyAcc.std...Y`**|* **`[8] tBodyAcc.std...Z`**|                      
 * **`[9] tBodyAcc.mad...X`**                      
 * **`[10] tBodyAcc.mad...Y`**                     
 * **`[11] tBodyAcc.mad...Z`**                     
