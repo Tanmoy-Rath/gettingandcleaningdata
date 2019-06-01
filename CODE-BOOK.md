@@ -388,103 +388,103 @@ The column names are listed below along with their column numbers within [ ]
 * **`[301] fBodyAcc.skewness...Y`**               
 * **`[302] fBodyAcc.kurtosis...Y`**               
 * **`[303] fBodyAcc.skewness...Z`**               
-[302] * **`[304] fBodyAcc.kurtosis...Z`**               
-[303] * **`[305] fBodyAcc.bandsEnergy...1.8`**          
-[304] * **`[306] fBodyAcc.bandsEnergy...9.16`**         
-[305] * **`[307] fBodyAcc.bandsEnergy...17.24`**        
-[306] * **`[308] fBodyAcc.bandsEnergy...25.32`**        
-[307] * **`[309] fBodyAcc.bandsEnergy...33.40`**        
-[308] * **`[310] fBodyAcc.bandsEnergy...41.48`**        
-[309] * **`[311] fBodyAcc.bandsEnergy...49.56`**        
-[310] * **`[312] fBodyAcc.bandsEnergy...57.64`**        
-[311] * **`[313] fBodyAcc.bandsEnergy...1.16`**         
-[312] * **`[314] fBodyAcc.bandsEnergy...17.32`**        
-[313] * **`[315] fBodyAcc.bandsEnergy...33.48`**        
-[314] * **`[316] fBodyAcc.bandsEnergy...49.64`**        
-[315] * **`[317] fBodyAcc.bandsEnergy...1.24`**         
-[316] * **`[318] fBodyAcc.bandsEnergy...25.48`**        
-[317] * **`[319] fBodyAcc.bandsEnergy...1.8.1`**        
-[318] * **`[320] fBodyAcc.bandsEnergy...9.16.1`**       
-[319] * **`[321] fBodyAcc.bandsEnergy...17.24.1`**      
-[320] * **`[322] fBodyAcc.bandsEnergy...25.32.1`**      
-[321] * **`[323] fBodyAcc.bandsEnergy...33.40.1`**      
-[322] * **`[324] fBodyAcc.bandsEnergy...41.48.1`**      
-[323] * **`[325] fBodyAcc.bandsEnergy...49.56.1`**      
-[324] * **`[326] fBodyAcc.bandsEnergy...57.64.1`**      
-[325] * **`[327] fBodyAcc.bandsEnergy...1.16.1`**       
-[326] * **`[328] fBodyAcc.bandsEnergy...17.32.1`**      
-[327] * **`[329] fBodyAcc.bandsEnergy...33.48.1`**      
-[328] * **`[330] fBodyAcc.bandsEnergy...49.64.1`**      
-[329] * **`[331] fBodyAcc.bandsEnergy...1.24.1`**       
-[330] * **`[332] fBodyAcc.bandsEnergy...25.48.1`**      
-[331] * **`[333] fBodyAcc.bandsEnergy...1.8.2`**        
-[332] * **`[334] fBodyAcc.bandsEnergy...9.16.2`**       
-[333] * **`[335] fBodyAcc.bandsEnergy...17.24.2`**      
-[334] * **`[336] fBodyAcc.bandsEnergy...25.32.2`**      
-[335] * **`[337] fBodyAcc.bandsEnergy...33.40.2`**      
-[336] * **`[338] fBodyAcc.bandsEnergy...41.48.2`**      
-[337] * **`[339] fBodyAcc.bandsEnergy...49.56.2`**      
-[338] * **`[340] fBodyAcc.bandsEnergy...57.64.2`**      
-[339] * **`[341] fBodyAcc.bandsEnergy...1.16.2`**       
-[340] * **`[342] fBodyAcc.bandsEnergy...17.32.2`**      
-[341] * **`[343] fBodyAcc.bandsEnergy...33.48.2`**      
-[342] * **`[344] fBodyAcc.bandsEnergy...49.64.2`**      
-[343] * **`[345] fBodyAcc.bandsEnergy...1.24.2`**       
-[344] * **`[346] fBodyAcc.bandsEnergy...25.48.2`**      
-[345] * **`[347] fBodyAccJerk.mean...X`**               
-[346] * **`[348] fBodyAccJerk.mean...Y`**               
-[347] * **`[349] fBodyAccJerk.mean...Z`**               
-[348] * **`[350] fBodyAccJerk.std...X`**                
-[349] * **`[351] fBodyAccJerk.std...Y`**                
-[350] * **`[352] fBodyAccJerk.std...Z`**                
-[351] * **`[353] fBodyAccJerk.mad...X`**                
-[352] * **`[354] fBodyAccJerk.mad...Y`**                
-[353] * **`[355] fBodyAccJerk.mad...Z`**                
-[354] * **`[356] fBodyAccJerk.max...X`**                
-[355] * **`[357] fBodyAccJerk.max...Y`**                
-[356] * **`[358] fBodyAccJerk.max...Z`**                
-[357] * **`[359] fBodyAccJerk.min...X`**                
-[358] * **`[360] fBodyAccJerk.min...Y`**                
-[359] * **`[361] fBodyAccJerk.min...Z`**                
-[360] * **`[362] fBodyAccJerk.sma..`**                  
-[361] * **`[363] fBodyAccJerk.energy...X`**             
-[362] * **`[364] fBodyAccJerk.energy...Y`**             
-[363] * **`[365] fBodyAccJerk.energy...Z`**             
-[364] * **`[366] fBodyAccJerk.iqr...X`**                
-[365] * **`[367] fBodyAccJerk.iqr...Y`**                
-[366] * **`[368] fBodyAccJerk.iqr...Z`**                
-[367] * **`[369] fBodyAccJerk.entropy...X`**            
-[368] * **`[370] fBodyAccJerk.entropy...Y`**            
-[369] * **`[371] fBodyAccJerk.entropy...Z`**            
-[370] * **`[372] fBodyAccJerk.maxInds.X`**              
-[371] * **`[373] fBodyAccJerk.maxInds.Y`**              
-[372] * **`[374] fBodyAccJerk.maxInds.Z`**              
-[373] * **`[375] fBodyAccJerk.meanFreq...X`**           
-[374] * **`[376] fBodyAccJerk.meanFreq...Y`**           
-[375] * **`[377] fBodyAccJerk.meanFreq...Z`**           
-[376] * **`[378] fBodyAccJerk.skewness...X`**           
-[377] * **`[379] fBodyAccJerk.kurtosis...X`**           
-[378] * **`[380] fBodyAccJerk.skewness...Y`**           
-[379] * **`[381] fBodyAccJerk.kurtosis...Y`**           
-[380] * **`[382] fBodyAccJerk.skewness...Z`**           
-[381] * **`[383] fBodyAccJerk.kurtosis...Z`**           
-[382] * **`[384] fBodyAccJerk.bandsEnergy...1.8`**      
-[383] * **`[385] fBodyAccJerk.bandsEnergy...9.16`**     
-[384] * **`[386] fBodyAccJerk.bandsEnergy...17.24`**    
-[385] * **`[387] fBodyAccJerk.bandsEnergy...25.32`**    
-[386] * **`[388] fBodyAccJerk.bandsEnergy...33.40`**    
-[387] * **`[389] fBodyAccJerk.bandsEnergy...41.48`**    
-[388] * **`[390] fBodyAccJerk.bandsEnergy...49.56`**    
-[389] * **`[391] fBodyAccJerk.bandsEnergy...57.64`**    
-[390] * **`[392] fBodyAccJerk.bandsEnergy...1.16`**     
-[391] * **`[393] fBodyAccJerk.bandsEnergy...17.32`**    
-[392] * **`[394] fBodyAccJerk.bandsEnergy...33.48`**    
-[393] * **`[395] fBodyAccJerk.bandsEnergy...49.64`**    
-[394] * **`[396] fBodyAccJerk.bandsEnergy...1.24`**     
-[395] * **`[397] fBodyAccJerk.bandsEnergy...25.48`**    
-[396] * **`[398] fBodyAccJerk.bandsEnergy...1.8.1`**    
-[397] * **`[399] fBodyAccJerk.bandsEnergy...9.16.1`**   
-[398] * **`[400] fBodyAccJerk.bandsEnergy...17.24.1`**  
+* **`[304] fBodyAcc.kurtosis...Z`**               
+* **`[305] fBodyAcc.bandsEnergy...1.8`**          
+* **`[306] fBodyAcc.bandsEnergy...9.16`**         
+* **`[307] fBodyAcc.bandsEnergy...17.24`**        
+* **`[308] fBodyAcc.bandsEnergy...25.32`**        
+* **`[309] fBodyAcc.bandsEnergy...33.40`**        
+* **`[310] fBodyAcc.bandsEnergy...41.48`**        
+* **`[311] fBodyAcc.bandsEnergy...49.56`**        
+* **`[312] fBodyAcc.bandsEnergy...57.64`**        
+* **`[313] fBodyAcc.bandsEnergy...1.16`**         
+* **`[314] fBodyAcc.bandsEnergy...17.32`**        
+* **`[315] fBodyAcc.bandsEnergy...33.48`**        
+* **`[316] fBodyAcc.bandsEnergy...49.64`**        
+* **`[317] fBodyAcc.bandsEnergy...1.24`**         
+* **`[318] fBodyAcc.bandsEnergy...25.48`**        
+* **`[319] fBodyAcc.bandsEnergy...1.8.1`**        
+* **`[320] fBodyAcc.bandsEnergy...9.16.1`**       
+* **`[321] fBodyAcc.bandsEnergy...17.24.1`**      
+* **`[322] fBodyAcc.bandsEnergy...25.32.1`**      
+* **`[323] fBodyAcc.bandsEnergy...33.40.1`**      
+* **`[324] fBodyAcc.bandsEnergy...41.48.1`**      
+* **`[325] fBodyAcc.bandsEnergy...49.56.1`**      
+* **`[326] fBodyAcc.bandsEnergy...57.64.1`**      
+* **`[327] fBodyAcc.bandsEnergy...1.16.1`**       
+* **`[328] fBodyAcc.bandsEnergy...17.32.1`**      
+* **`[329] fBodyAcc.bandsEnergy...33.48.1`**      
+* **`[330] fBodyAcc.bandsEnergy...49.64.1`**      
+* **`[331] fBodyAcc.bandsEnergy...1.24.1`**       
+* **`[332] fBodyAcc.bandsEnergy...25.48.1`**      
+* **`[333] fBodyAcc.bandsEnergy...1.8.2`**        
+* **`[334] fBodyAcc.bandsEnergy...9.16.2`**       
+* **`[335] fBodyAcc.bandsEnergy...17.24.2`**      
+* **`[336] fBodyAcc.bandsEnergy...25.32.2`**      
+* **`[337] fBodyAcc.bandsEnergy...33.40.2`**      
+* **`[338] fBodyAcc.bandsEnergy...41.48.2`**      
+* **`[339] fBodyAcc.bandsEnergy...49.56.2`**      
+* **`[340] fBodyAcc.bandsEnergy...57.64.2`**      
+* **`[341] fBodyAcc.bandsEnergy...1.16.2`**       
+* **`[342] fBodyAcc.bandsEnergy...17.32.2`**      
+* **`[343] fBodyAcc.bandsEnergy...33.48.2`**      
+* **`[344] fBodyAcc.bandsEnergy...49.64.2`**      
+* **`[345] fBodyAcc.bandsEnergy...1.24.2`**       
+* **`[346] fBodyAcc.bandsEnergy...25.48.2`**      
+* **`[347] fBodyAccJerk.mean...X`**               
+* **`[348] fBodyAccJerk.mean...Y`**               
+* **`[349] fBodyAccJerk.mean...Z`**               
+* **`[350] fBodyAccJerk.std...X`**                
+* **`[351] fBodyAccJerk.std...Y`**                
+* **`[352] fBodyAccJerk.std...Z`**                
+* **`[353] fBodyAccJerk.mad...X`**                
+* **`[354] fBodyAccJerk.mad...Y`**                
+* **`[355] fBodyAccJerk.mad...Z`**                
+* **`[356] fBodyAccJerk.max...X`**                
+* **`[357] fBodyAccJerk.max...Y`**                
+* **`[358] fBodyAccJerk.max...Z`**                
+* **`[359] fBodyAccJerk.min...X`**                
+* **`[360] fBodyAccJerk.min...Y`**                
+* **`[361] fBodyAccJerk.min...Z`**                
+* **`[362] fBodyAccJerk.sma..`**                  
+* **`[363] fBodyAccJerk.energy...X`**             
+* **`[364] fBodyAccJerk.energy...Y`**             
+* **`[365] fBodyAccJerk.energy...Z`**             
+* **`[366] fBodyAccJerk.iqr...X`**                
+* **`[367] fBodyAccJerk.iqr...Y`**                
+* **`[368] fBodyAccJerk.iqr...Z`**                
+* **`[369] fBodyAccJerk.entropy...X`**            
+* **`[370] fBodyAccJerk.entropy...Y`**            
+* **`[371] fBodyAccJerk.entropy...Z`**            
+* **`[372] fBodyAccJerk.maxInds.X`**              
+* **`[373] fBodyAccJerk.maxInds.Y`**              
+* **`[374] fBodyAccJerk.maxInds.Z`**              
+* **`[375] fBodyAccJerk.meanFreq...X`**           
+* **`[376] fBodyAccJerk.meanFreq...Y`**           
+* **`[377] fBodyAccJerk.meanFreq...Z`**           
+* **`[378] fBodyAccJerk.skewness...X`**           
+* **`[379] fBodyAccJerk.kurtosis...X`**           
+* **`[380] fBodyAccJerk.skewness...Y`**           
+* **`[381] fBodyAccJerk.kurtosis...Y`**           
+* **`[382] fBodyAccJerk.skewness...Z`**           
+* **`[383] fBodyAccJerk.kurtosis...Z`**           
+* **`[384] fBodyAccJerk.bandsEnergy...1.8`**      
+* **`[385] fBodyAccJerk.bandsEnergy...9.16`**     
+* **`[386] fBodyAccJerk.bandsEnergy...17.24`**    
+* **`[387] fBodyAccJerk.bandsEnergy...25.32`**    
+* **`[388] fBodyAccJerk.bandsEnergy...33.40`**    
+* **`[389] fBodyAccJerk.bandsEnergy...41.48`**    
+* **`[390] fBodyAccJerk.bandsEnergy...49.56`**    
+* **`[391] fBodyAccJerk.bandsEnergy...57.64`**    
+* **`[392] fBodyAccJerk.bandsEnergy...1.16`**     
+* **`[393] fBodyAccJerk.bandsEnergy...17.32`**    
+* **`[394] fBodyAccJerk.bandsEnergy...33.48`**    
+* **`[395] fBodyAccJerk.bandsEnergy...49.64`**    
+* **`[396] fBodyAccJerk.bandsEnergy...1.24`**     
+* **`[397] fBodyAccJerk.bandsEnergy...25.48`**    
+* **`[398] fBodyAccJerk.bandsEnergy...1.8.1`**    
+* **`[399] fBodyAccJerk.bandsEnergy...9.16.1`**   
+* **`[400] fBodyAccJerk.bandsEnergy...17.24.1`**  
 [399] * **`[401] fBodyAccJerk.bandsEnergy...25.32.1`**  
 [400] * **`[402] fBodyAccJerk.bandsEnergy...33.40.1`**  
 [401] * **`[403] fBodyAccJerk.bandsEnergy...41.48.1`**  
