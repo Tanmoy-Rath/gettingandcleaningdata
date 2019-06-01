@@ -89,102 +89,102 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 * **`[4] tBodyAcc-mean()-Y`**                     
 * **`[5] tBodyAcc-mean()-Z`**                     
 * **`[6] tBodyAcc-std()-X`**                      
-* **`[7] tBodyAcc-std()-Y`**                      
-* **`[8] tBodyAcc-std()-Z`**                      
-* **`[9] tBodyAcc-mad()-X`**                      
-* **`[10] tBodyAcc-mad()-Y`**                     
-* **`[11] tBodyAcc-mad()-Z`**                     
-* **`[12] tBodyAcc-max()-X`**                     
-* **`[13] tBodyAcc-max()-Y`**                     
-* **`[14] tBodyAcc-max()-Z`**                     
-* **`[15] tBodyAcc-min()-X`**                     
-* **`[16] tBodyAcc-min()-Y`**                     
-* **`[17] tBodyAcc-min()-Z`**                     
-* **`[18] tBodyAcc-sma()`**                       
-* **`[19] tBodyAcc-energy()-X`**                  
-* **`[20] tBodyAcc-energy()-Y`**                  
-* **`[21] tBodyAcc-energy()-Z`**                  
-* **`[22] tBodyAcc-iqr()-X`**                     
-* **`[23] tBodyAcc-iqr()-Y`**                     
-* **`[24] tBodyAcc-iqr()-Z`**                     
-* **`[25] tBodyAcc-entropy()-X`**                 
-* **`[26] tBodyAcc-entropy()-Y`**                 
-* **`[27] tBodyAcc-entropy()-Z`**                 
-* **`[28] tBodyAcc-arCoeff()-X,1`**               
-* **`[29] tBodyAcc-arCoeff()-X,2`**               
-* **`[30] tBodyAcc-arCoeff()-X,3`**               
-* **`[31] tBodyAcc-arCoeff()-X,4`**               
-* **`[32] tBodyAcc-arCoeff()-Y,1`**               
-* **`[33] tBodyAcc-arCoeff()-Y,2`**               
-* **`[34] tBodyAcc-arCoeff()-Y,3`**               
-* **`[35] tBodyAcc-arCoeff()-Y,4`**               
-* **`[36] tBodyAcc-arCoeff()-Z,1`**               
-* **`[37] tBodyAcc-arCoeff()-Z,2`**               
-* **`[38] tBodyAcc-arCoeff()-Z,3`**               
-* **`[39] tBodyAcc-arCoeff()-Z,4`**               
-* **`[40] tBodyAcc-correlation()-X,Y`**           
-* **`[41] tBodyAcc-correlation()-X,Z`**           
-* **`[42] tBodyAcc-correlation()-Y,Z`**           
-* **`[43] tGravityAcc-mean()-X`**                 
-* **`[44] tGravityAcc-mean()-Y`**                 
-* **`[45] tGravityAcc-mean()-Z`**                 
-* **`[46] tGravityAcc-std()-X`**                  
-* **`[47] tGravityAcc-std()-Y`**                  
-* **`[48] tGravityAcc-std()-Z`**                  
-* **`[49] tGravityAcc-mad()-X`**                  
-* **`[50] tGravityAcc-mad()-Y`**                  
-* **`[51] tGravityAcc-mad()-Z`**                  
-* **`[52] tGravityAcc-max()-X`**                  
-* **`[53] tGravityAcc-max()-Y`**                  
-* **`[54] tGravityAcc-max()-Z`**                  
-* **`[55] tGravityAcc-min()-X`**                  
-* **`[56] tGravityAcc-min()-Y`**                  
-* **`[57] tGravityAcc-min()-Z`**                  
-* **`[58] tGravityAcc-sma()`**                    
-* **`[59] tGravityAcc-energy()-X`**               
-* **`[60] tGravityAcc-energy()-Y`**               
-* **`[61] tGravityAcc-energy()-Z`**               
-* **`[62] tGravityAcc-iqr()-X`**                  
-* **`[63] tGravityAcc-iqr()-Y`**                  
-* **`[64] tGravityAcc-iqr()-Z`**                  
-* **`[65] tGravityAcc-entropy()-X`**              
-* **`[66] tGravityAcc-entropy()-Y`**              
-* **`[67] tGravityAcc-entropy()-Z`**              
-* **`[68] tGravityAcc-arCoeff()-X,1`**            
-* **`[69] tGravityAcc-arCoeff()-X,2`**            
-* **`[70] tGravityAcc-arCoeff()-X,3`**            
-* **`[71] tGravityAcc-arCoeff()-X,4`**            
-* **`[72] tGravityAcc-arCoeff()-Y,1`**            
-* **`[73] tGravityAcc-arCoeff()-Y,2`**            
-* **`[74] tGravityAcc-arCoeff()-Y,3`**            
-* **`[75] tGravityAcc-arCoeff()-Y,4`**            
-* **`[76] tGravityAcc-arCoeff()-Z,1`**            
-* **`[77] tGravityAcc-arCoeff()-Z,2`**            
-* **`[78] tGravityAcc-arCoeff()-Z,3`**            
-* **`[79] tGravityAcc-arCoeff()-Z,4`**            
-* **`[80] tGravityAcc-correlation()-X,Y`**        
-* **`[81] tGravityAcc-correlation()-X,Z`**        
-* **`[82] tGravityAcc-correlation()-Y,Z`**        
-* **`[83] tBodyAccJerk-mean()-X`**                
-* **`[84] tBodyAccJerk-mean()-Y`**                
-* **`[85] tBodyAccJerk-mean()-Z`**                
-* **`[86] tBodyAccJerk-std()-X`**                 
-* **`[87] tBodyAccJerk-std()-Y`**                 
-* **`[88] tBodyAccJerk-std()-Z`**                 
-* **`[89] tBodyAccJerk-mad()-X`**                 
-* **`[90] tBodyAccJerk-mad()-Y`**                 
-* **`[91] tBodyAccJerk-mad()-Z`**                 
-* **`[92] tBodyAccJerk-max()-X`**                 
-* **`[93] tBodyAccJerk-max()-Y`**                 
-* **`[94] tBodyAccJerk-max()-Z`**                 
-* **`[95] tBodyAccJerk-min()-X`**                 
-* **`[96] tBodyAccJerk-min()-Y`**                 
-* **`[97] tBodyAccJerk-min()-Z`**                 
-* **`[98] tBodyAccJerk-sma()`**                   
-* **`[99] tBodyAccJerk-energy()-X`**              
-* **`[100] tBodyAccJerk-energy()-Y`**             
-* **`[101] tBodyAccJerk-energy()-Z`**             
-* **`[102] tBodyAccJerk-iqr()-X`**                
+  [5] * **`[7] tBodyAcc-std()-Y`**                      
+  [6] * **`[8] tBodyAcc-std()-Z`**                      
+  [7] * **`[9] tBodyAcc-mad()-X`**                      
+  [8] * **`[10] tBodyAcc-mad()-Y`**                     
+  [9] * **`[11] tBodyAcc-mad()-Z`**                     
+ [10] * **`[12] tBodyAcc-max()-X`**                     
+ [11] * **`[13] tBodyAcc-max()-Y`**                     
+ [12] * **`[14] tBodyAcc-max()-Z`**                     
+ [13] * **`[15] tBodyAcc-min()-X`**                     
+ [14] * **`[16] tBodyAcc-min()-Y`**                     
+ [15] * **`[17] tBodyAcc-min()-Z`**                     
+ [16] * **`[18] tBodyAcc-sma()`**                       
+ [17] * **`[19] tBodyAcc-energy()-X`**                  
+ [18] * **`[20] tBodyAcc-energy()-Y`**                  
+ [19] * **`[21] tBodyAcc-energy()-Z`**                  
+ [20] * **`[22] tBodyAcc-iqr()-X`**                     
+ [21] * **`[23] tBodyAcc-iqr()-Y`**                     
+ [22] * **`[24] tBodyAcc-iqr()-Z`**                     
+ [23] * **`[25] tBodyAcc-entropy()-X`**                 
+ [24] * **`[26] tBodyAcc-entropy()-Y`**                 
+ [25] * **`[27] tBodyAcc-entropy()-Z`**                 
+ [26] * **`[28] tBodyAcc-arCoeff()-X,1`**               
+ [27] * **`[29] tBodyAcc-arCoeff()-X,2`**               
+ [28] * **`[30] tBodyAcc-arCoeff()-X,3`**               
+ [29] * **`[31] tBodyAcc-arCoeff()-X,4`**               
+ [30] * **`[32] tBodyAcc-arCoeff()-Y,1`**               
+ [31] * **`[33] tBodyAcc-arCoeff()-Y,2`**               
+ [32] * **`[34] tBodyAcc-arCoeff()-Y,3`**               
+ [33] * **`[35] tBodyAcc-arCoeff()-Y,4`**               
+ [34] * **`[36] tBodyAcc-arCoeff()-Z,1`**               
+ [35] * **`[37] tBodyAcc-arCoeff()-Z,2`**               
+ [36] * **`[38] tBodyAcc-arCoeff()-Z,3`**               
+ [37] * **`[39] tBodyAcc-arCoeff()-Z,4`**               
+ [38] * **`[40] tBodyAcc-correlation()-X,Y`**           
+ [39] * **`[41] tBodyAcc-correlation()-X,Z`**           
+ [40] * **`[42] tBodyAcc-correlation()-Y,Z`**           
+ [41] * **`[43] tGravityAcc-mean()-X`**                 
+ [42] * **`[44] tGravityAcc-mean()-Y`**                 
+ [43] * **`[45] tGravityAcc-mean()-Z`**                 
+ [44] * **`[46] tGravityAcc-std()-X`**                  
+ [45] * **`[47] tGravityAcc-std()-Y`**                  
+ [46] * **`[48] tGravityAcc-std()-Z`**                  
+ [47] * **`[49] tGravityAcc-mad()-X`**                  
+ [48] * **`[50] tGravityAcc-mad()-Y`**                  
+ [49] * **`[51] tGravityAcc-mad()-Z`**                  
+ [50] * **`[52] tGravityAcc-max()-X`**                  
+ [51] * **`[53] tGravityAcc-max()-Y`**                  
+ [52] * **`[54] tGravityAcc-max()-Z`**                  
+ [53] * **`[55] tGravityAcc-min()-X`**                  
+ [54] * **`[56] tGravityAcc-min()-Y`**                  
+ [55] * **`[57] tGravityAcc-min()-Z`**                  
+ [56] * **`[58] tGravityAcc-sma()`**                    
+ [57] * **`[59] tGravityAcc-energy()-X`**               
+ [58] * **`[60] tGravityAcc-energy()-Y`**               
+ [59] * **`[61] tGravityAcc-energy()-Z`**               
+ [60] * **`[62] tGravityAcc-iqr()-X`**                  
+ [61] * **`[63] tGravityAcc-iqr()-Y`**                  
+ [62] * **`[64] tGravityAcc-iqr()-Z`**                  
+ [63] * **`[65] tGravityAcc-entropy()-X`**              
+ [64] * **`[66] tGravityAcc-entropy()-Y`**              
+ [65] * **`[67] tGravityAcc-entropy()-Z`**              
+ [66] * **`[68] tGravityAcc-arCoeff()-X,1`**            
+ [67] * **`[69] tGravityAcc-arCoeff()-X,2`**            
+ [68] * **`[70] tGravityAcc-arCoeff()-X,3`**            
+ [69] * **`[71] tGravityAcc-arCoeff()-X,4`**            
+ [70] * **`[72] tGravityAcc-arCoeff()-Y,1`**            
+ [71] * **`[73] tGravityAcc-arCoeff()-Y,2`**            
+ [72] * **`[74] tGravityAcc-arCoeff()-Y,3`**            
+ [73] * **`[75] tGravityAcc-arCoeff()-Y,4`**            
+ [74] * **`[76] tGravityAcc-arCoeff()-Z,1`**            
+ [75] * **`[77] tGravityAcc-arCoeff()-Z,2`**            
+ [76] * **`[78] tGravityAcc-arCoeff()-Z,3`**            
+ [77] * **`[79] tGravityAcc-arCoeff()-Z,4`**            
+ [78] * **`[80] tGravityAcc-correlation()-X,Y`**        
+ [79] * **`[81] tGravityAcc-correlation()-X,Z`**        
+ [80] * **`[82] tGravityAcc-correlation()-Y,Z`**        
+ [81] * **`[83] tBodyAccJerk-mean()-X`**                
+ [82] * **`[84] tBodyAccJerk-mean()-Y`**                
+ [83] * **`[85] tBodyAccJerk-mean()-Z`**                
+ [84] * **`[86] tBodyAccJerk-std()-X`**                 
+ [85] * **`[87] tBodyAccJerk-std()-Y`**                 
+ [86] * **`[88] tBodyAccJerk-std()-Z`**                 
+ [87] * **`[89] tBodyAccJerk-mad()-X`**                 
+ [88] * **`[90] tBodyAccJerk-mad()-Y`**                 
+ [89] * **`[91] tBodyAccJerk-mad()-Z`**                 
+ [90] * **`[92] tBodyAccJerk-max()-X`**                 
+ [91] * **`[93] tBodyAccJerk-max()-Y`**                 
+ [92] * **`[94] tBodyAccJerk-max()-Z`**                 
+ [93] * **`[95] tBodyAccJerk-min()-X`**                 
+ [94] * **`[96] tBodyAccJerk-min()-Y`**                 
+ [95] * **`[97] tBodyAccJerk-min()-Z`**                 
+ [96] * **`[98] tBodyAccJerk-sma()`**                   
+ [97] * **`[99] tBodyAccJerk-energy()-X`**              
+ [98] * **`[100] tBodyAccJerk-energy()-Y`**             
+ [99] * **`[101] tBodyAccJerk-energy()-Z`**             
+[100] * **`[102] tBodyAccJerk-iqr()-X`**                
 [101] * **`[103] tBodyAccJerk-iqr()-Y`**                
 [102] * **`[104] tBodyAccJerk-iqr()-Z`**                
 [103] * **`[105] tBodyAccJerk-entropy()-X`**            
@@ -401,34 +401,34 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 [314] * **`[316] fBodyAcc-bandsEnergy()-49,64`**        
 [315] * **`[317] fBodyAcc-bandsEnergy()-1,24`**         
 [316] * **`[318] fBodyAcc-bandsEnergy()-25,48`**        
-[317] * **`[305] fBodyAcc-bandsEnergy()-1,8`**          
-[318] * **`[306] fBodyAcc-bandsEnergy()-9,16`**         
-[319] * **`[307] fBodyAcc-bandsEnergy()-17,24`**        
-[320] * **`[308] fBodyAcc-bandsEnergy()-25,32`**        
-[321] * **`[309] fBodyAcc-bandsEnergy()-33,40`**        
-[322] * **`[310] fBodyAcc-bandsEnergy()-41,48`**        
-[323] * **`[311] fBodyAcc-bandsEnergy()-49,56`**        
-[324] * **`[312] fBodyAcc-bandsEnergy()-57,64`**        
-[325] * **`[313] fBodyAcc-bandsEnergy()-1,16`**         
-[326] * **`[314] fBodyAcc-bandsEnergy()-17,32`**        
-[327] * **`[315] fBodyAcc-bandsEnergy()-33,48`**        
-[328] * **`[316] fBodyAcc-bandsEnergy()-49,64`**        
-[329] * **`[317] fBodyAcc-bandsEnergy()-1,24`**         
-[330] * **`[318] fBodyAcc-bandsEnergy()-25,48`**        
-[331] * **`[305] fBodyAcc-bandsEnergy()-1,8`**          
-[332] * **`[306] fBodyAcc-bandsEnergy()-9,16`**         
-[333] * **`[307] fBodyAcc-bandsEnergy()-17,24`**        
-[334] * **`[308] fBodyAcc-bandsEnergy()-25,32`**        
-[335] * **`[309] fBodyAcc-bandsEnergy()-33,40`**        
-[336] * **`[310] fBodyAcc-bandsEnergy()-41,48`**        
-[337] * **`[311] fBodyAcc-bandsEnergy()-49,56`**        
-[338] * **`[312] fBodyAcc-bandsEnergy()-57,64`**        
-[339] * **`[313] fBodyAcc-bandsEnergy()-1,16`**         
-[340] * **`[314] fBodyAcc-bandsEnergy()-17,32`**        
-[341] * **`[315] fBodyAcc-bandsEnergy()-33,48`**        
-[342] * **`[316] fBodyAcc-bandsEnergy()-49,64`**        
-[343] * **`[317] fBodyAcc-bandsEnergy()-1,24`**         
-[344] * **`[318] fBodyAcc-bandsEnergy()-25,48`**        
+[317] * **`[319] fBodyAcc-bandsEnergy()-1,8`**          
+[318] * **`[320] fBodyAcc-bandsEnergy()-9,16`**         
+[319] * **`[321] fBodyAcc-bandsEnergy()-17,24`**        
+[320] * **`[322] fBodyAcc-bandsEnergy()-25,32`**        
+[321] * **`[323] fBodyAcc-bandsEnergy()-33,40`**        
+[322] * **`[324] fBodyAcc-bandsEnergy()-41,48`**        
+[323] * **`[325] fBodyAcc-bandsEnergy()-49,56`**        
+[324] * **`[326] fBodyAcc-bandsEnergy()-57,64`**        
+[325] * **`[327] fBodyAcc-bandsEnergy()-1,16`**         
+[326] * **`[328] fBodyAcc-bandsEnergy()-17,32`**        
+[327] * **`[329] fBodyAcc-bandsEnergy()-33,48`**        
+[328] * **`[330] fBodyAcc-bandsEnergy()-49,64`**        
+[329] * **`[331] fBodyAcc-bandsEnergy()-1,24`**         
+[330] * **`[332] fBodyAcc-bandsEnergy()-25,48`**        
+[331] * **`[333] fBodyAcc-bandsEnergy()-1,8`**          
+[332] * **`[334] fBodyAcc-bandsEnergy()-9,16`**         
+[333] * **`[335] fBodyAcc-bandsEnergy()-17,24`**        
+[334] * **`[336] fBodyAcc-bandsEnergy()-25,32`**        
+[335] * **`[337] fBodyAcc-bandsEnergy()-33,40`**        
+[336] * **`[338] fBodyAcc-bandsEnergy()-41,48`**        
+[337] * **`[339] fBodyAcc-bandsEnergy()-49,56`**        
+[338] * **`[340] fBodyAcc-bandsEnergy()-57,64`**        
+[339] * **`[341] fBodyAcc-bandsEnergy()-1,16`**         
+[340] * **`[342] fBodyAcc-bandsEnergy()-17,32`**        
+[341] * **`[343] fBodyAcc-bandsEnergy()-33,48`**        
+[342] * **`[344] fBodyAcc-bandsEnergy()-49,64`**        
+[343] * **`[345] fBodyAcc-bandsEnergy()-1,24`**         
+[344] * **`[346] fBodyAcc-bandsEnergy()-25,48`**        
 [345] * **`[347] fBodyAccJerk-mean()-X`**               
 [346] * **`[348] fBodyAccJerk-mean()-Y`**               
 [347] * **`[349] fBodyAccJerk-mean()-Z`**               
@@ -480,34 +480,34 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 [393] * **`[395] fBodyAccJerk-bandsEnergy()-49,64`**    
 [394] * **`[396] fBodyAccJerk-bandsEnergy()-1,24`**     
 [395] * **`[397] fBodyAccJerk-bandsEnergy()-25,48`**    
-[396] * **`[384] fBodyAccJerk-bandsEnergy()-1,8`**      
-[397] * **`[385] fBodyAccJerk-bandsEnergy()-9,16`**     
-[398] * **`[386] fBodyAccJerk-bandsEnergy()-17,24`**    
-[399] * **`[387] fBodyAccJerk-bandsEnergy()-25,32`**    
-[400] * **`[388] fBodyAccJerk-bandsEnergy()-33,40`**    
-[401] * **`[389] fBodyAccJerk-bandsEnergy()-41,48`**    
-[402] * **`[390] fBodyAccJerk-bandsEnergy()-49,56`**    
-[403] * **`[391] fBodyAccJerk-bandsEnergy()-57,64`**    
-[404] * **`[392] fBodyAccJerk-bandsEnergy()-1,16`**     
-[405] * **`[393] fBodyAccJerk-bandsEnergy()-17,32`**    
-[406] * **`[394] fBodyAccJerk-bandsEnergy()-33,48`**    
-[407] * **`[395] fBodyAccJerk-bandsEnergy()-49,64`**    
-[408] * **`[396] fBodyAccJerk-bandsEnergy()-1,24`**     
-[409] * **`[397] fBodyAccJerk-bandsEnergy()-25,48`**    
-[410] * **`[384] fBodyAccJerk-bandsEnergy()-1,8`**      
-[411] * **`[385] fBodyAccJerk-bandsEnergy()-9,16`**     
-[412] * **`[386] fBodyAccJerk-bandsEnergy()-17,24`**    
-[413] * **`[387] fBodyAccJerk-bandsEnergy()-25,32`**    
-[414] * **`[388] fBodyAccJerk-bandsEnergy()-33,40`**    
-[415] * **`[389] fBodyAccJerk-bandsEnergy()-41,48`**    
-[416] * **`[390] fBodyAccJerk-bandsEnergy()-49,56`**    
-[417] * **`[391] fBodyAccJerk-bandsEnergy()-57,64`**    
-[418] * **`[392] fBodyAccJerk-bandsEnergy()-1,16`**     
-[419] * **`[393] fBodyAccJerk-bandsEnergy()-17,32`**    
-[420] * **`[394] fBodyAccJerk-bandsEnergy()-33,48`**    
-[421] * **`[395] fBodyAccJerk-bandsEnergy()-49,64`**    
-[422] * **`[396] fBodyAccJerk-bandsEnergy()-1,24`**     
-[423] * **`[397] fBodyAccJerk-bandsEnergy()-25,48`**    
+[396] * **`[398] fBodyAccJerk-bandsEnergy()-1,8`**      
+[397] * **`[399] fBodyAccJerk-bandsEnergy()-9,16`**     
+[398] * **`[400] fBodyAccJerk-bandsEnergy()-17,24`**    
+[399] * **`[401] fBodyAccJerk-bandsEnergy()-25,32`**    
+[400] * **`[402] fBodyAccJerk-bandsEnergy()-33,40`**    
+[401] * **`[403] fBodyAccJerk-bandsEnergy()-41,48`**    
+[402] * **`[404] fBodyAccJerk-bandsEnergy()-49,56`**    
+[403] * **`[405] fBodyAccJerk-bandsEnergy()-57,64`**    
+[404] * **`[406] fBodyAccJerk-bandsEnergy()-1,16`**     
+[405] * **`[407] fBodyAccJerk-bandsEnergy()-17,32`**    
+[406] * **`[408] fBodyAccJerk-bandsEnergy()-33,48`**    
+[407] * **`[409] fBodyAccJerk-bandsEnergy()-49,64`**    
+[408] * **`[410] fBodyAccJerk-bandsEnergy()-1,24`**     
+[409] * **`[411] fBodyAccJerk-bandsEnergy()-25,48`**    
+[410] * **`[412] fBodyAccJerk-bandsEnergy()-1,8`**      
+[411] * **`[413] fBodyAccJerk-bandsEnergy()-9,16`**     
+[412] * **`[414] fBodyAccJerk-bandsEnergy()-17,24`**    
+[413] * **`[415] fBodyAccJerk-bandsEnergy()-25,32`**    
+[414] * **`[416] fBodyAccJerk-bandsEnergy()-33,40`**    
+[415] * **`[417] fBodyAccJerk-bandsEnergy()-41,48`**    
+[416] * **`[418] fBodyAccJerk-bandsEnergy()-49,56`**    
+[417] * **`[419] fBodyAccJerk-bandsEnergy()-57,64`**    
+[418] * **`[420] fBodyAccJerk-bandsEnergy()-1,16`**     
+[419] * **`[421] fBodyAccJerk-bandsEnergy()-17,32`**    
+[420] * **`[422] fBodyAccJerk-bandsEnergy()-33,48`**    
+[421] * **`[423] fBodyAccJerk-bandsEnergy()-49,64`**    
+[422] * **`[424] fBodyAccJerk-bandsEnergy()-1,24`**     
+[423] * **`[425] fBodyAccJerk-bandsEnergy()-25,48`**    
 [424] * **`[426] fBodyGyro-mean()-X`**                  
 [425] * **`[427] fBodyGyro-mean()-Y`**                  
 [426] * **`[428] fBodyGyro-mean()-Z`**                  
@@ -559,34 +559,34 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 [472] * **`[474] fBodyGyro-bandsEnergy()-49,64`**       
 [473] * **`[475] fBodyGyro-bandsEnergy()-1,24`**        
 [474] * **`[476] fBodyGyro-bandsEnergy()-25,48`**       
-[475] * **`[463] fBodyGyro-bandsEnergy()-1,8`**         
-[476] * **`[464] fBodyGyro-bandsEnergy()-9,16`**        
-[477] * **`[465] fBodyGyro-bandsEnergy()-17,24`**       
-[478] * **`[466] fBodyGyro-bandsEnergy()-25,32`**       
-[479] * **`[467] fBodyGyro-bandsEnergy()-33,40`**       
-[480] * **`[468] fBodyGyro-bandsEnergy()-41,48`**       
-[481] * **`[469] fBodyGyro-bandsEnergy()-49,56`**       
-[482] * **`[470] fBodyGyro-bandsEnergy()-57,64`**       
-[483] * **`[471] fBodyGyro-bandsEnergy()-1,16`**        
-[484] * **`[472] fBodyGyro-bandsEnergy()-17,32`**       
-[485] * **`[473] fBodyGyro-bandsEnergy()-33,48`**       
-[486] * **`[474] fBodyGyro-bandsEnergy()-49,64`**       
-[487] * **`[475] fBodyGyro-bandsEnergy()-1,24`**        
-[488] * **`[476] fBodyGyro-bandsEnergy()-25,48`**       
-[489] * **`[463] fBodyGyro-bandsEnergy()-1,8`**         
-[490] * **`[464] fBodyGyro-bandsEnergy()-9,16`**        
-[491] * **`[465] fBodyGyro-bandsEnergy()-17,24`**       
-[492] * **`[466] fBodyGyro-bandsEnergy()-25,32`**       
-[493] * **`[467] fBodyGyro-bandsEnergy()-33,40`**       
-[494] * **`[468] fBodyGyro-bandsEnergy()-41,48`**       
-[495] * **`[469] fBodyGyro-bandsEnergy()-49,56`**       
-[496] * **`[470] fBodyGyro-bandsEnergy()-57,64`**       
-[497] * **`[471] fBodyGyro-bandsEnergy()-1,16`**        
-[498] * **`[472] fBodyGyro-bandsEnergy()-17,32`**       
-[499] * **`[473] fBodyGyro-bandsEnergy()-33,48`**       
-[500] * **`[474] fBodyGyro-bandsEnergy()-49,64`**       
-[501] * **`[475] fBodyGyro-bandsEnergy()-1,24`**        
-[502] * **`[476] fBodyGyro-bandsEnergy()-25,48`**       
+[475] * **`[477] fBodyGyro-bandsEnergy()-1,8`**         
+[476] * **`[478] fBodyGyro-bandsEnergy()-9,16`**        
+[477] * **`[479] fBodyGyro-bandsEnergy()-17,24`**       
+[478] * **`[480] fBodyGyro-bandsEnergy()-25,32`**       
+[479] * **`[481] fBodyGyro-bandsEnergy()-33,40`**       
+[480] * **`[482] fBodyGyro-bandsEnergy()-41,48`**       
+[481] * **`[483] fBodyGyro-bandsEnergy()-49,56`**       
+[482] * **`[484] fBodyGyro-bandsEnergy()-57,64`**       
+[483] * **`[485] fBodyGyro-bandsEnergy()-1,16`**        
+[484] * **`[486] fBodyGyro-bandsEnergy()-17,32`**       
+[485] * **`[487] fBodyGyro-bandsEnergy()-33,48`**       
+[486] * **`[488] fBodyGyro-bandsEnergy()-49,64`**       
+[487] * **`[489] fBodyGyro-bandsEnergy()-1,24`**        
+[488] * **`[490] fBodyGyro-bandsEnergy()-25,48`**       
+[489] * **`[491] fBodyGyro-bandsEnergy()-1,8`**         
+[490] * **`[492] fBodyGyro-bandsEnergy()-9,16`**        
+[491] * **`[493] fBodyGyro-bandsEnergy()-17,24`**       
+[492] * **`[494] fBodyGyro-bandsEnergy()-25,32`**       
+[493] * **`[495] fBodyGyro-bandsEnergy()-33,40`**       
+[494] * **`[496] fBodyGyro-bandsEnergy()-41,48`**       
+[495] * **`[497] fBodyGyro-bandsEnergy()-49,56`**       
+[496] * **`[498] fBodyGyro-bandsEnergy()-57,64`**       
+[497] * **`[499] fBodyGyro-bandsEnergy()-1,16`**        
+[498] * **`[500] fBodyGyro-bandsEnergy()-17,32`**       
+[499] * **`[501] fBodyGyro-bandsEnergy()-33,48`**       
+[500] * **`[502] fBodyGyro-bandsEnergy()-49,64`**       
+[501] * **`[503] fBodyGyro-bandsEnergy()-1,24`**        
+[502] * **`[504] fBodyGyro-bandsEnergy()-25,48`**       
 [503] * **`[505] fBodyAccMag-mean()`**                  
 [504] * **`[506] fBodyAccMag-std()`**                   
 [505] * **`[507] fBodyAccMag-mad()`**                   
@@ -646,568 +646,4 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 [559] * **`[561] angle(X,gravityMean)`**                
 [560] * **`[562] angle(Y,gravityMean)`**                
 [561] * **`[563] angle(Z,gravityMean)`**                
-477 Levels: * **`[10] tBodyAcc-mad()-Y`** ...
-
-
-* **`[3] tBodyAcc.mean...X`**                    
-* **`[4] tBodyAcc.mean...Y`**                   
-* **`[5] tBodyAcc.mean...Z`**                   
-* **`[6] tBodyAcc.std...X`**                      
-* **`[7] tBodyAcc.std...Y`**                      
-* **`[8] tBodyAcc.std...Z`**                      
-* **`[9] tBodyAcc.mad...X`**                      
-* **`[10] tBodyAcc.mad...Y`**                     
-* **`tBodyAcc.mad...Z`**                     
-* **`tBodyAcc.max...X`**                    
-* **`tBodyAcc.max...Y`**                    
-* **`tBodyAcc.max...Z`**                    
-* **`tBodyAcc.min...X`**                     
-* **`tBodyAcc.min...Y`**                    
-* **`tBodyAcc.min...Z`**                     
-* **`tBodyAcc.sma..`**                       
-* **`tBodyAcc.energy...X`**                 
-* **`tBodyAcc.energy...Y`**                  
-* **`tBodyAcc.energy...Z`**                 
-* **`tBodyAcc.iqr...X`**                    
-* **`tBodyAcc.iqr...Y`**                    
-* **`tBodyAcc.iqr...Z`**                    
-* **`tBodyAcc.entropy...X`**                
-* **`tBodyAcc.entropy...Y`**                
-* **`tBodyAcc.entropy...Z`**                
-* **`tBodyAcc.arCoeff...X.1`**              
-* **`tBodyAcc.arCoeff...X.2`**              
-* **`tBodyAcc.arCoeff...X.3`**              
-* **`tBodyAcc.arCoeff...X.4`**              
-* **`tBodyAcc.arCoeff...Y.1`**              
-* **`tBodyAcc.arCoeff...Y.2`**              
-* **`tBodyAcc.arCoeff...Y.3`**              
-* **`tBodyAcc.arCoeff...Y.4`**              
-* **`tBodyAcc.arCoeff...Z.1`**              
-* **`tBodyAcc.arCoeff...Z.2`**              
-* **`tBodyAcc.arCoeff...Z.3`**              
-* **`tBodyAcc.arCoeff...Z.4`**              
-* **`tBodyAcc.correlation...X.Y`**          
-* **`tBodyAcc.correlation...X.Z`**          
-* **`tBodyAcc.correlation...Y.Z`**          
-* **`tGravityAcc.mean...X`**                
-* **`tGravityAcc.mean...Y`**                
-* **`tGravityAcc.mean...Z`**                
-* **`tGravityAcc.std...X`**                 
-* **`tGravityAcc.std...Y`**                 
-* **`tGravityAcc.std...Z`**                 
-* **`tGravityAcc.mad...X`**                 
-* **`tGravityAcc.mad...Y`**                 
-* **`tGravityAcc.mad...Z`**                 
-* **`tGravityAcc.max...X`**                 
-* **`tGravityAcc.max...Y`**                 
-* **`tGravityAcc.max...Z`**                 
-* **`tGravityAcc.min...X`**                 
-* **`tGravityAcc.min...Y`**                 
-* **`tGravityAcc.min...Z`**                 
-* **`tGravityAcc.sma..`**                   
-* **`tGravityAcc.energy...X`**              
-* **`tGravityAcc.energy...Y`**              
-* **`tGravityAcc.energy...Z`**              
-* **`tGravityAcc.iqr...X`**                 
-* **`tGravityAcc.iqr...Y`**                 
-* **`tGravityAcc.iqr...Z`**                 
-* **`tGravityAcc.entropy...X`**             
-* **`tGravityAcc.entropy...Y`**             
-* **`tGravityAcc.entropy...Z`**             
-* **`tGravityAcc.arCoeff...X.1`**           
-* **`tGravityAcc.arCoeff...X.2`**           
-* **`tGravityAcc.arCoeff...X.3`**           
-* **`tGravityAcc.arCoeff...X.4`**           
-* **`tGravityAcc.arCoeff...Y.1`**           
-* **`tGravityAcc.arCoeff...Y.2`**           
-* **`tGravityAcc.arCoeff...Y.3`**           
-* **`tGravityAcc.arCoeff...Y.4`**           
-* **`tGravityAcc.arCoeff...Z.1`**           
-* **`tGravityAcc.arCoeff...Z.2`**           
-* **`tGravityAcc.arCoeff...Z.3`**           
-* **`tGravityAcc.arCoeff...Z.4`**           
-* **`tGravityAcc.correlation...X.Y`**       
-* **`tGravityAcc.correlation...X.Z`**       
-* **`tGravityAcc.correlation...Y.Z`**       
-* **`tBodyAccJerk.mean...X`**               
-* **`tBodyAccJerk.mean...Y`**               
-* **`tBodyAccJerk.mean...Z`**               
-* **`tBodyAccJerk.std...X`**                
-* **`tBodyAccJerk.std...Y`**                
-* **`tBodyAccJerk.std...Z`**                
-* **`tBodyAccJerk.mad...X`**                
-* **`tBodyAccJerk.mad...Y`**                
-* **`tBodyAccJerk.mad...Z`**                
-* **`tBodyAccJerk.max...X`**                
-* **`tBodyAccJerk.max...Y`**                
-* **`tBodyAccJerk.max...Z`**                
-* **`tBodyAccJerk.min...X`**                
-* **`tBodyAccJerk.min...Y`**                
-* **`tBodyAccJerk.min...Z`**                
-* **`tBodyAccJerk.sma..`**                  
-* **`tBodyAccJerk.energy...X`**             
-* **`tBodyAccJerk.energy...Y`**             
-* **`tBodyAccJerk.energy...Z`**             
-* **`tBodyAccJerk.iqr...X`**                
-* **`tBodyAccJerk.iqr...Y`**                
-* **`tBodyAccJerk.iqr...Z`**                
-* **`tBodyAccJerk.entropy...X`**            
-* **`tBodyAccJerk.entropy...Y`**            
-* **`tBodyAccJerk.entropy...Z`**            
-* **`tBodyAccJerk.arCoeff...X.1`**          
-* **`tBodyAccJerk.arCoeff...X.2`**          
-* **`tBodyAccJerk.arCoeff...X.3`**          
-* **`tBodyAccJerk.arCoeff...X.4`**          
-* **`tBodyAccJerk.arCoeff...Y.1`**          
-* **`tBodyAccJerk.arCoeff...Y.2`**          
-* **`tBodyAccJerk.arCoeff...Y.3`**          
-* **`tBodyAccJerk.arCoeff...Y.4`**          
-* **`tBodyAccJerk.arCoeff...Z.1`**          
-* **`tBodyAccJerk.arCoeff...Z.2`**          
-* **`tBodyAccJerk.arCoeff...Z.3`**          
-* **`tBodyAccJerk.arCoeff...Z.4`**          
-* **`tBodyAccJerk.correlation...X.Y`**      
-* **`tBodyAccJerk.correlation...X.Z`**      
-* **`tBodyAccJerk.correlation...Y.Z`**      
-* **`tBodyGyro.mean...X`**                  
-* **`tBodyGyro.mean...Y`**                  
-* **`tBodyGyro.mean...Z`**                  
-* **`tBodyGyro.std...X`**                   
-* **`tBodyGyro.std...Y`**                   
-* **`tBodyGyro.std...Z`**                   
-* **`tBodyGyro.mad...X`**                   
-* **`tBodyGyro.mad...Y`**                   
-* **`[131] tBodyGyro.mad...Z`**                   
-* **`[132] tBodyGyro.max...X`**                   
-* **`[133] tBodyGyro.max...Y`**                   
-* **`[134] tBodyGyro.max...Z`**                   
-* **`[135] tBodyGyro.min...X`**                   
-* **`[136] tBodyGyro.min...Y`**                   
-* **`[137] tBodyGyro.min...Z`**                   
-* **`[138] tBodyGyro.sma..`**                     
-* **`[139] tBodyGyro.energy...X`**                
-* **`[140] tBodyGyro.energy...Y`**                
-* **`[141] tBodyGyro.energy...Z`**                
-* **`[142] tBodyGyro.iqr...X`**                   
-* **`[143] tBodyGyro.iqr...Y`**                   
-* **`[144] tBodyGyro.iqr...Z`**                   
-* **`[145] tBodyGyro.entropy...X`**               
-* **`[146] tBodyGyro.entropy...Y`**               
-* **`[147] tBodyGyro.entropy...Z`**               
-* **`[148] tBodyGyro.arCoeff...X.1`**             
-* **`[149] tBodyGyro.arCoeff...X.2`**             
-* **`[150] tBodyGyro.arCoeff...X.3`**             
-* **`[151] tBodyGyro.arCoeff...X.4`**             
-* **`[152] tBodyGyro.arCoeff...Y.1`**             
-* **`[153] tBodyGyro.arCoeff...Y.2`**             
-* **`[154] tBodyGyro.arCoeff...Y.3`**             
-* **`[155] tBodyGyro.arCoeff...Y.4`**             
-* **`[156] tBodyGyro.arCoeff...Z.1`**             
-* **`[157] tBodyGyro.arCoeff...Z.2`**             
-* **`[158] tBodyGyro.arCoeff...Z.3`**             
-* **`[159] tBodyGyro.arCoeff...Z.4`**             
-* **`[160] tBodyGyro.correlation...X.Y`**         
-* **`[161] tBodyGyro.correlation...X.Z`**         
-* **`[162] tBodyGyro.correlation...Y.Z`**         
-* **`[163] tBodyGyroJerk.mean...X`**              
-* **`[164] tBodyGyroJerk.mean...Y`**              
-* **`[165] tBodyGyroJerk.mean...Z`**              
-* **`[166] tBodyGyroJerk.std...X`**               
-* **`[167] tBodyGyroJerk.std...Y`**               
-* **`[168] tBodyGyroJerk.std...Z`**               
-* **`[169] tBodyGyroJerk.mad...X`**               
-* **`[170] tBodyGyroJerk.mad...Y`**               
-* **`[171] tBodyGyroJerk.mad...Z`**               
-* **`[172] tBodyGyroJerk.max...X`**               
-* **`[173] tBodyGyroJerk.max...Y`**               
-* **`[174] tBodyGyroJerk.max...Z`**               
-* **`[175] tBodyGyroJerk.min...X`**               
-* **`[176] tBodyGyroJerk.min...Y`**               
-* **`[177] tBodyGyroJerk.min...Z`**               
-* **`[178] tBodyGyroJerk.sma..`**                 
-* **`[179] tBodyGyroJerk.energy...X`**            
-* **`[180] tBodyGyroJerk.energy...Y`**            
-* **`[181] tBodyGyroJerk.energy...Z`**            
-* **`[182] tBodyGyroJerk.iqr...X`**               
-* **`[183] tBodyGyroJerk.iqr...Y`**               
-* **`[184] tBodyGyroJerk.iqr...Z`**               
-* **`[185] tBodyGyroJerk.entropy...X`**           
-* **`[186] tBodyGyroJerk.entropy...Y`**           
-* **`[187] tBodyGyroJerk.entropy...Z`**           
-* **`[188] tBodyGyroJerk.arCoeff...X.1`**         
-* **`[189] tBodyGyroJerk.arCoeff...X.2`**         
-* **`[190] tBodyGyroJerk.arCoeff...X.3`**         
-* **`[191] tBodyGyroJerk.arCoeff...X.4`**         
-* **`[192] tBodyGyroJerk.arCoeff...Y.1`**         
-* **`[193] tBodyGyroJerk.arCoeff...Y.2`**         
-* **`[194] tBodyGyroJerk.arCoeff...Y.3`**         
-* **`[195] tBodyGyroJerk.arCoeff...Y.4`**         
-* **`[196] tBodyGyroJerk.arCoeff...Z.1`**         
-* **`[197] tBodyGyroJerk.arCoeff...Z.2`**         
-* **`[198] tBodyGyroJerk.arCoeff...Z.3`**         
-* **`[199] tBodyGyroJerk.arCoeff...Z.4`**         
-* **`[200] tBodyGyroJerk.correlation...X.Y`**     
-[201] tBodyGyroJerk.correlation...X.Z     
-[202] tBodyGyroJerk.correlation...Y.Z     
-[203] tBodyAccMag.mean..                  
-[204] tBodyAccMag.std..                   
-[205] tBodyAccMag.mad..                   
-[206] tBodyAccMag.max..                   
-[207] tBodyAccMag.min..                   
-[208] tBodyAccMag.sma..                   
-[209] tBodyAccMag.energy..                
-[210] tBodyAccMag.iqr..                   
-[211] tBodyAccMag.entropy..               
-[212] tBodyAccMag.arCoeff..1              
-[213] tBodyAccMag.arCoeff..2              
-[214] tBodyAccMag.arCoeff..3              
-[215] tBodyAccMag.arCoeff..4              
-[216] tGravityAccMag.mean..               
-[217] tGravityAccMag.std..                
-[218] tGravityAccMag.mad..                
-[219] tGravityAccMag.max..                
-[220] tGravityAccMag.min..                
-[221] tGravityAccMag.sma..                
-[222] tGravityAccMag.energy..             
-[223] tGravityAccMag.iqr..                
-[224] tGravityAccMag.entropy..            
-[225] tGravityAccMag.arCoeff..1           
-[226] tGravityAccMag.arCoeff..2           
-[227] tGravityAccMag.arCoeff..3           
-[228] tGravityAccMag.arCoeff..4           
-[229] tBodyAccJerkMag.mean..              
-[230] tBodyAccJerkMag.std..               
-[231] tBodyAccJerkMag.mad..               
-[232] tBodyAccJerkMag.max..               
-[233] tBodyAccJerkMag.min..               
-[234] tBodyAccJerkMag.sma..               
-[235] tBodyAccJerkMag.energy..            
-[236] tBodyAccJerkMag.iqr..               
-[237] tBodyAccJerkMag.entropy..           
-[238] tBodyAccJerkMag.arCoeff..1          
-[239] tBodyAccJerkMag.arCoeff..2          
-[240] tBodyAccJerkMag.arCoeff..3          
-[241] tBodyAccJerkMag.arCoeff..4          
-[242] tBodyGyroMag.mean..                 
-[243] tBodyGyroMag.std..                  
-[244] tBodyGyroMag.mad..                  
-[245] tBodyGyroMag.max..                  
-[246] tBodyGyroMag.min..                  
-[247] tBodyGyroMag.sma..                  
-[248] tBodyGyroMag.energy..               
-[249] tBodyGyroMag.iqr..                  
-[250] tBodyGyroMag.entropy..              
-[251] tBodyGyroMag.arCoeff..1             
-[252] tBodyGyroMag.arCoeff..2             
-[253] tBodyGyroMag.arCoeff..3             
-[254] tBodyGyroMag.arCoeff..4             
-[255] tBodyGyroJerkMag.mean..             
-[256] tBodyGyroJerkMag.std..              
-[257] tBodyGyroJerkMag.mad..              
-[258] tBodyGyroJerkMag.max..              
-[259] tBodyGyroJerkMag.min..              
-[260] tBodyGyroJerkMag.sma..              
-[261] tBodyGyroJerkMag.energy..           
-[262] tBodyGyroJerkMag.iqr..              
-[263] tBodyGyroJerkMag.entropy..          
-[264] tBodyGyroJerkMag.arCoeff..1         
-[265] tBodyGyroJerkMag.arCoeff..2         
-[266] tBodyGyroJerkMag.arCoeff..3         
-[267] tBodyGyroJerkMag.arCoeff..4         
-[268] fBodyAcc.mean...X                   
-[269] fBodyAcc.mean...Y                   
-[270] fBodyAcc.mean...Z                   
-[271] fBodyAcc.std...X                    
-[272] fBodyAcc.std...Y                    
-[273] fBodyAcc.std...Z                    
-[274] fBodyAcc.mad...X                    
-[275] fBodyAcc.mad...Y                    
-[276] fBodyAcc.mad...Z                    
-[277] fBodyAcc.max...X                    
-[278] fBodyAcc.max...Y                    
-[279] fBodyAcc.max...Z                    
-[280] fBodyAcc.min...X                    
-[281] fBodyAcc.min...Y                    
-[282] fBodyAcc.min...Z                    
-[283] fBodyAcc.sma..                      
-[284] fBodyAcc.energy...X                 
-[285] fBodyAcc.energy...Y                 
-[286] fBodyAcc.energy...Z                 
-[287] fBodyAcc.iqr...X                    
-[288] fBodyAcc.iqr...Y                    
-[289] fBodyAcc.iqr...Z                    
-[290] fBodyAcc.entropy...X                
-[291] fBodyAcc.entropy...Y                
-[292] fBodyAcc.entropy...Z                
-[293] fBodyAcc.maxInds.X                  
-[294] fBodyAcc.maxInds.Y                  
-[295] fBodyAcc.maxInds.Z                  
-[296] fBodyAcc.meanFreq...X               
-[297] fBodyAcc.meanFreq...Y               
-[298] fBodyAcc.meanFreq...Z               
-[299] fBodyAcc.skewness...X               
-[300] fBodyAcc.kurtosis...X               
-[301] fBodyAcc.skewness...Y               
-[302] fBodyAcc.kurtosis...Y               
-[303] fBodyAcc.skewness...Z               
-[304] fBodyAcc.kurtosis...Z               
-[305] fBodyAcc.bandsEnergy...1.8          
-[306] fBodyAcc.bandsEnergy...9.16         
-[307] fBodyAcc.bandsEnergy...17.24        
-[308] fBodyAcc.bandsEnergy...25.32        
-[309] fBodyAcc.bandsEnergy...33.40        
-[310] fBodyAcc.bandsEnergy...41.48        
-[311] fBodyAcc.bandsEnergy...49.56        
-[312] fBodyAcc.bandsEnergy...57.64        
-[313] fBodyAcc.bandsEnergy...1.16         
-[314] fBodyAcc.bandsEnergy...17.32        
-[315] fBodyAcc.bandsEnergy...33.48        
-[316] fBodyAcc.bandsEnergy...49.64        
-[317] fBodyAcc.bandsEnergy...1.24         
-[318] fBodyAcc.bandsEnergy...25.48        
-[319] fBodyAcc.bandsEnergy...1.8.1        
-[320] fBodyAcc.bandsEnergy...9.16.1       
-[321] fBodyAcc.bandsEnergy...17.24.1      
-[322] fBodyAcc.bandsEnergy...25.32.1      
-[323] fBodyAcc.bandsEnergy...33.40.1      
-[324] fBodyAcc.bandsEnergy...41.48.1      
-[325] fBodyAcc.bandsEnergy...49.56.1      
-[326] fBodyAcc.bandsEnergy...57.64.1      
-[327] fBodyAcc.bandsEnergy...1.16.1       
-[328] fBodyAcc.bandsEnergy...17.32.1      
-[329] fBodyAcc.bandsEnergy...33.48.1      
-[330] fBodyAcc.bandsEnergy...49.64.1      
-[331] fBodyAcc.bandsEnergy...1.24.1       
-[332] fBodyAcc.bandsEnergy...25.48.1      
-[333] fBodyAcc.bandsEnergy...1.8.2        
-[334] fBodyAcc.bandsEnergy...9.16.2       
-[335] fBodyAcc.bandsEnergy...17.24.2      
-[336] fBodyAcc.bandsEnergy...25.32.2      
-[337] fBodyAcc.bandsEnergy...33.40.2      
-[338] fBodyAcc.bandsEnergy...41.48.2      
-[339] fBodyAcc.bandsEnergy...49.56.2      
-[340] fBodyAcc.bandsEnergy...57.64.2      
-[341] fBodyAcc.bandsEnergy...1.16.2       
-[342] fBodyAcc.bandsEnergy...17.32.2      
-[343] fBodyAcc.bandsEnergy...33.48.2      
-[344] fBodyAcc.bandsEnergy...49.64.2      
-[345] fBodyAcc.bandsEnergy...1.24.2       
-[346] fBodyAcc.bandsEnergy...25.48.2      
-[347] fBodyAccJerk.mean...X               
-[348] fBodyAccJerk.mean...Y               
-[349] fBodyAccJerk.mean...Z               
-[350] fBodyAccJerk.std...X                
-[351] fBodyAccJerk.std...Y                
-[352] fBodyAccJerk.std...Z                
-[353] fBodyAccJerk.mad...X                
-[354] fBodyAccJerk.mad...Y                
-[355] fBodyAccJerk.mad...Z                
-[356] fBodyAccJerk.max...X                
-[357] fBodyAccJerk.max...Y                
-[358] fBodyAccJerk.max...Z                
-[359] fBodyAccJerk.min...X                
-[360] fBodyAccJerk.min...Y                
-[361] fBodyAccJerk.min...Z                
-[362] fBodyAccJerk.sma..                  
-[363] fBodyAccJerk.energy...X             
-[364] fBodyAccJerk.energy...Y             
-[365] fBodyAccJerk.energy...Z             
-[366] fBodyAccJerk.iqr...X                
-[367] fBodyAccJerk.iqr...Y                
-[368] fBodyAccJerk.iqr...Z                
-[369] fBodyAccJerk.entropy...X            
-[370] fBodyAccJerk.entropy...Y            
-[371] fBodyAccJerk.entropy...Z            
-[372] fBodyAccJerk.maxInds.X              
-[373] fBodyAccJerk.maxInds.Y              
-[374] fBodyAccJerk.maxInds.Z              
-[375] fBodyAccJerk.meanFreq...X           
-[376] fBodyAccJerk.meanFreq...Y           
-[377] fBodyAccJerk.meanFreq...Z           
-[378] fBodyAccJerk.skewness...X           
-[379] fBodyAccJerk.kurtosis...X           
-[380] fBodyAccJerk.skewness...Y           
-[381] fBodyAccJerk.kurtosis...Y           
-[382] fBodyAccJerk.skewness...Z           
-[383] fBodyAccJerk.kurtosis...Z           
-[384] fBodyAccJerk.bandsEnergy...1.8      
-[385] fBodyAccJerk.bandsEnergy...9.16     
-[386] fBodyAccJerk.bandsEnergy...17.24    
-[387] fBodyAccJerk.bandsEnergy...25.32    
-[388] fBodyAccJerk.bandsEnergy...33.40    
-[389] fBodyAccJerk.bandsEnergy...41.48    
-[390] fBodyAccJerk.bandsEnergy...49.56    
-[391] fBodyAccJerk.bandsEnergy...57.64    
-[392] fBodyAccJerk.bandsEnergy...1.16     
-[393] fBodyAccJerk.bandsEnergy...17.32    
-[394] fBodyAccJerk.bandsEnergy...33.48    
-[395] fBodyAccJerk.bandsEnergy...49.64    
-[396] fBodyAccJerk.bandsEnergy...1.24     
-[397] fBodyAccJerk.bandsEnergy...25.48    
-[398] fBodyAccJerk.bandsEnergy...1.8.1    
-[399] fBodyAccJerk.bandsEnergy...9.16.1   
-[400] fBodyAccJerk.bandsEnergy...17.24.1  
-[401] fBodyAccJerk.bandsEnergy...25.32.1  
-[402] fBodyAccJerk.bandsEnergy...33.40.1  
-[403] fBodyAccJerk.bandsEnergy...41.48.1  
-[404] fBodyAccJerk.bandsEnergy...49.56.1  
-[405] fBodyAccJerk.bandsEnergy...57.64.1  
-[406] fBodyAccJerk.bandsEnergy...1.16.1   
-[407] fBodyAccJerk.bandsEnergy...17.32.1  
-[408] fBodyAccJerk.bandsEnergy...33.48.1  
-[409] fBodyAccJerk.bandsEnergy...49.64.1  
-[410] fBodyAccJerk.bandsEnergy...1.24.1   
-[411] fBodyAccJerk.bandsEnergy...25.48.1  
-[412] fBodyAccJerk.bandsEnergy...1.8.2    
-[413] fBodyAccJerk.bandsEnergy...9.16.2   
-[414] fBodyAccJerk.bandsEnergy...17.24.2  
-[415] fBodyAccJerk.bandsEnergy...25.32.2  
-[416] fBodyAccJerk.bandsEnergy...33.40.2  
-[417] fBodyAccJerk.bandsEnergy...41.48.2  
-[418] fBodyAccJerk.bandsEnergy...49.56.2  
-[419] fBodyAccJerk.bandsEnergy...57.64.2  
-[420] fBodyAccJerk.bandsEnergy...1.16.2   
-[421] fBodyAccJerk.bandsEnergy...17.32.2  
-[422] fBodyAccJerk.bandsEnergy...33.48.2  
-[423] fBodyAccJerk.bandsEnergy...49.64.2  
-[424] fBodyAccJerk.bandsEnergy...1.24.2   
-[425] fBodyAccJerk.bandsEnergy...25.48.2  
-[426] fBodyGyro.mean...X                  
-[427] fBodyGyro.mean...Y                  
-[428] fBodyGyro.mean...Z                  
-[429] fBodyGyro.std...X                   
-[430] fBodyGyro.std...Y                   
-[431] fBodyGyro.std...Z                   
-[432] fBodyGyro.mad...X                   
-[433] fBodyGyro.mad...Y                   
-[434] fBodyGyro.mad...Z                   
-[435] fBodyGyro.max...X                   
-[436] fBodyGyro.max...Y                   
-[437] fBodyGyro.max...Z                   
-[438] fBodyGyro.min...X                   
-[439] fBodyGyro.min...Y                   
-[440] fBodyGyro.min...Z                   
-[441] fBodyGyro.sma..                     
-[442] fBodyGyro.energy...X                
-[443] fBodyGyro.energy...Y                
-[444] fBodyGyro.energy...Z                
-[445] fBodyGyro.iqr...X                   
-[446] fBodyGyro.iqr...Y                   
-[447] fBodyGyro.iqr...Z                   
-[448] fBodyGyro.entropy...X               
-[449] fBodyGyro.entropy...Y               
-[450] fBodyGyro.entropy...Z               
-[451] fBodyGyro.maxInds.X                 
-[452] fBodyGyro.maxInds.Y                 
-[453] fBodyGyro.maxInds.Z                 
-[454] fBodyGyro.meanFreq...X              
-[455] fBodyGyro.meanFreq...Y              
-[456] fBodyGyro.meanFreq...Z              
-[457] fBodyGyro.skewness...X              
-[458] fBodyGyro.kurtosis...X              
-[459] fBodyGyro.skewness...Y              
-[460] fBodyGyro.kurtosis...Y              
-[461] fBodyGyro.skewness...Z              
-[462] fBodyGyro.kurtosis...Z              
-[463] fBodyGyro.bandsEnergy...1.8         
-[464] fBodyGyro.bandsEnergy...9.16        
-[465] fBodyGyro.bandsEnergy...17.24       
-[466] fBodyGyro.bandsEnergy...25.32       
-[467] fBodyGyro.bandsEnergy...33.40       
-[468] fBodyGyro.bandsEnergy...41.48       
-[469] fBodyGyro.bandsEnergy...49.56       
-[470] fBodyGyro.bandsEnergy...57.64       
-[471] fBodyGyro.bandsEnergy...1.16        
-[472] fBodyGyro.bandsEnergy...17.32       
-[473] fBodyGyro.bandsEnergy...33.48       
-[474] fBodyGyro.bandsEnergy...49.64       
-[475] fBodyGyro.bandsEnergy...1.24        
-[476] fBodyGyro.bandsEnergy...25.48       
-[477] fBodyGyro.bandsEnergy...1.8.1       
-[478] fBodyGyro.bandsEnergy...9.16.1      
-[479] fBodyGyro.bandsEnergy...17.24.1     
-[480] fBodyGyro.bandsEnergy...25.32.1     
-[481] fBodyGyro.bandsEnergy...33.40.1     
-[482] fBodyGyro.bandsEnergy...41.48.1     
-[483] fBodyGyro.bandsEnergy...49.56.1     
-[484] fBodyGyro.bandsEnergy...57.64.1     
-[485] fBodyGyro.bandsEnergy...1.16.1      
-[486] fBodyGyro.bandsEnergy...17.32.1     
-[487] fBodyGyro.bandsEnergy...33.48.1     
-[488] fBodyGyro.bandsEnergy...49.64.1     
-[489] fBodyGyro.bandsEnergy...1.24.1      
-[490] fBodyGyro.bandsEnergy...25.48.1     
-[491] fBodyGyro.bandsEnergy...1.8.2       
-[492] fBodyGyro.bandsEnergy...9.16.2      
-[493] fBodyGyro.bandsEnergy...17.24.2     
-[494] fBodyGyro.bandsEnergy...25.32.2     
-[495] fBodyGyro.bandsEnergy...33.40.2     
-[496] fBodyGyro.bandsEnergy...41.48.2     
-[497] fBodyGyro.bandsEnergy...49.56.2     
-[498] fBodyGyro.bandsEnergy...57.64.2     
-[499] fBodyGyro.bandsEnergy...1.16.2      
-[500] fBodyGyro.bandsEnergy...17.32.2     
-[501] fBodyGyro.bandsEnergy...33.48.2     
-[502] fBodyGyro.bandsEnergy...49.64.2     
-[503] fBodyGyro.bandsEnergy...1.24.2      
-[504] fBodyGyro.bandsEnergy...25.48.2     
-[505] fBodyAccMag.mean..                  
-[506] fBodyAccMag.std..                   
-[507] fBodyAccMag.mad..                   
-[508] fBodyAccMag.max..                   
-[509] fBodyAccMag.min..                   
-[510] fBodyAccMag.sma..                   
-[511] fBodyAccMag.energy..                
-[512] fBodyAccMag.iqr..                   
-[513] fBodyAccMag.entropy..               
-[514] fBodyAccMag.maxInds                 
-[515] fBodyAccMag.meanFreq..              
-[516] fBodyAccMag.skewness..              
-[517] fBodyAccMag.kurtosis..              
-[518] fBodyAccJerkMag.mean..              
-[519] fBodyAccJerkMag.std..               
-[520] fBodyAccJerkMag.mad..               
-[521] fBodyAccJerkMag.max..               
-[522] fBodyAccJerkMag.min..               
-[523] fBodyAccJerkMag.sma..               
-[524] fBodyAccJerkMag.energy..            
-[525] fBodyAccJerkMag.iqr..               
-[526] fBodyAccJerkMag.entropy..           
-[527] fBodyAccJerkMag.maxInds             
-[528] fBodyAccJerkMag.meanFreq..          
-[529] fBodyAccJerkMag.skewness..          
-[530] fBodyAccJerkMag.kurtosis..          
-[531] fBodyGyroMag.mean..                 
-[532] fBodyGyroMag.std..                  
-[533] fBodyGyroMag.mad..                  
-[534] fBodyGyroMag.max..                  
-[535] fBodyGyroMag.min..                  
-[536] fBodyGyroMag.sma..                  
-[537] fBodyGyroMag.energy..               
-[538] fBodyGyroMag.iqr..                  
-[539] fBodyGyroMag.entropy..              
-[540] fBodyGyroMag.maxInds                
-[541] fBodyGyroMag.meanFreq..             
-[542] fBodyGyroMag.skewness..             
-[543] fBodyGyroMag.kurtosis..             
-[544] fBodyGyroJerkMag.mean..             
-[545] fBodyGyroJerkMag.std..              
-[546] fBodyGyroJerkMag.mad..              
-[547] fBodyGyroJerkMag.max..              
-[548] fBodyGyroJerkMag.min..              
-[549] fBodyGyroJerkMag.sma..              
-[550] fBodyGyroJerkMag.energy..           
-[551] fBodyGyroJerkMag.iqr..              
-[552] fBodyGyroJerkMag.entropy..          
-[553] fBodyGyroJerkMag.maxInds            
-[554] fBodyGyroJerkMag.meanFreq..         
-[555] fBodyGyroJerkMag.skewness..         
-[556] fBodyGyroJerkMag.kurtosis..         
-[557] angle.tBodyAccMean.gravity.         
-[558] angle.tBodyAccJerkMean..gravityMean.    
-[559] angle.tBodyGyroMean.gravityMean.    
-[560] angle.tBodyGyroJerkMean.gravityMean.    
-[561] angle.X.gravityMean.                
-[562] angle.Y.gravityMean.                
-[563] angle.Z.gravityMean.                
-
+561 Levels: * **`[10] tBodyAcc-mad()-Y`** ...
