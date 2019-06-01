@@ -21,7 +21,7 @@ You should create one R script called **run_analysis.R** that does the following
 
 <hr/>
 
-### _run_analysis.R_ explaination
+### _run_analysis.R_ explanation
 #### Download and unzip the file to your working directory
 You can do this either by the script given below or download directly via the browser. Be sure to check the files ***README.txt*** and ***features_info.txt***.
 ```R
