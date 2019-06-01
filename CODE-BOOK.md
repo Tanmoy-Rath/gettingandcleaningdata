@@ -1,5 +1,5 @@
 ### Description of tidy dataset in *tidydata.txt*
-Each row represents 1 Subject and 1 Activity. The raw data included multiple measurement observations for each Subject and Activity, so these were averaged together for the final tidy dataset.
+Each row represents 1 Subject and 1 Activity. The raw data included multiple measurement observations for each Subject and Activity, so these were averaged together for the final tidy dataset. The final tidy dataset is a data.frame.
 
 <br/>
 
@@ -52,7 +52,7 @@ This is the way, in which the columns have been named.
 ### Identifiers
 A part of tidy data is displayed below as a data-frame
 ```R
-> as.data.frame(Tidy_data[1:12,1:6])
+> Tidy_data[1:12,1:6]
    subject_id           activity tBodyAcc.mean...X tBodyAcc.mean...Y tBodyAcc.mean...Z tBodyAcc.std...X
 1           1            WALKING         0.2773308      -0.017383819        -0.1111481      -0.28374026
 2           1   WALKING_UPSTAIRS         0.2554617      -0.023953149        -0.0973020      -0.35470803
