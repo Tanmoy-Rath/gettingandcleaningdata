@@ -129,7 +129,7 @@ A part of the Mean_Std structure is shown below for better understanding.
 <br/>
 
 #### TASK-3: Use descriptive activity names to name the activities in the data set
-The activity names viz. 
+The activity names viz. ( _WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING & LAYING_ ) are represented by numbers from 1 to 6. The below script replaces the numbers with their respective activity names and converts them into factors.
 ```R
 activity_labels <- fread("zip_directory_UCI//UCI HAR Dataset//activity_labels.txt", data.table = FALSE, na.strings=c("",NA))
 Train_Test_combo$activity <- factor(activity_labels$V2[Train_Test_combo$activity], levels=activity_labels$V2)
