@@ -113,103 +113,103 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 * **`[28] tBodyAcc-arCoeff()-X,1`**               
 * **`[29] tBodyAcc-arCoeff()-X,2`**               
 * **`[30] tBodyAcc-arCoeff()-X,3`**               
- [29] * **`[31] tBodyAcc-arCoeff()-X,4`**               
- [30] * **`[32] tBodyAcc-arCoeff()-Y,1`**               
- [31] * **`[33] tBodyAcc-arCoeff()-Y,2`**               
- [32] * **`[34] tBodyAcc-arCoeff()-Y,3`**               
- [33] * **`[35] tBodyAcc-arCoeff()-Y,4`**               
- [34] * **`[36] tBodyAcc-arCoeff()-Z,1`**               
- [35] * **`[37] tBodyAcc-arCoeff()-Z,2`**               
- [36] * **`[38] tBodyAcc-arCoeff()-Z,3`**               
- [37] * **`[39] tBodyAcc-arCoeff()-Z,4`**               
- [38] * **`[40] tBodyAcc-correlation()-X,Y`**           
- [39] * **`[41] tBodyAcc-correlation()-X,Z`**           
- [40] * **`[42] tBodyAcc-correlation()-Y,Z`**           
- [41] * **`[43] tGravityAcc-mean()-X`**                 
- [42] * **`[44] tGravityAcc-mean()-Y`**                 
- [43] * **`[45] tGravityAcc-mean()-Z`**                 
- [44] * **`[46] tGravityAcc-std()-X`**                  
- [45] * **`[47] tGravityAcc-std()-Y`**                  
- [46] * **`[48] tGravityAcc-std()-Z`**                  
- [47] * **`[49] tGravityAcc-mad()-X`**                  
- [48] * **`[50] tGravityAcc-mad()-Y`**                  
- [49] * **`[51] tGravityAcc-mad()-Z`**                  
- [50] * **`[52] tGravityAcc-max()-X`**                  
- [51] * **`[53] tGravityAcc-max()-Y`**                  
- [52] * **`[54] tGravityAcc-max()-Z`**                  
- [53] * **`[55] tGravityAcc-min()-X`**                  
- [54] * **`[56] tGravityAcc-min()-Y`**                  
- [55] * **`[57] tGravityAcc-min()-Z`**                  
- [56] * **`[58] tGravityAcc-sma()`**                    
- [57] * **`[59] tGravityAcc-energy()-X`**               
- [58] * **`[60] tGravityAcc-energy()-Y`**               
- [59] * **`[61] tGravityAcc-energy()-Z`**               
- [60] * **`[62] tGravityAcc-iqr()-X`**                  
- [61] * **`[63] tGravityAcc-iqr()-Y`**                  
- [62] * **`[64] tGravityAcc-iqr()-Z`**                  
- [63] * **`[65] tGravityAcc-entropy()-X`**              
- [64] * **`[66] tGravityAcc-entropy()-Y`**              
- [65] * **`[67] tGravityAcc-entropy()-Z`**              
- [66] * **`[68] tGravityAcc-arCoeff()-X,1`**            
- [67] * **`[69] tGravityAcc-arCoeff()-X,2`**            
- [68] * **`[70] tGravityAcc-arCoeff()-X,3`**            
- [69] * **`[71] tGravityAcc-arCoeff()-X,4`**            
- [70] * **`[72] tGravityAcc-arCoeff()-Y,1`**            
- [71] * **`[73] tGravityAcc-arCoeff()-Y,2`**            
- [72] * **`[74] tGravityAcc-arCoeff()-Y,3`**            
- [73] * **`[75] tGravityAcc-arCoeff()-Y,4`**            
- [74] * **`[76] tGravityAcc-arCoeff()-Z,1`**            
- [75] * **`[77] tGravityAcc-arCoeff()-Z,2`**            
- [76] * **`[78] tGravityAcc-arCoeff()-Z,3`**            
- [77] * **`[79] tGravityAcc-arCoeff()-Z,4`**            
- [78] * **`[80] tGravityAcc-correlation()-X,Y`**        
- [79] * **`[81] tGravityAcc-correlation()-X,Z`**        
- [80] * **`[82] tGravityAcc-correlation()-Y,Z`**        
- [81] * **`[83] tBodyAccJerk-mean()-X`**                
- [82] * **`[84] tBodyAccJerk-mean()-Y`**                
- [83] * **`[85] tBodyAccJerk-mean()-Z`**                
- [84] * **`[86] tBodyAccJerk-std()-X`**                 
- [85] * **`[87] tBodyAccJerk-std()-Y`**                 
- [86] * **`[88] tBodyAccJerk-std()-Z`**                 
- [87] * **`[89] tBodyAccJerk-mad()-X`**                 
- [88] * **`[90] tBodyAccJerk-mad()-Y`**                 
- [89] * **`[91] tBodyAccJerk-mad()-Z`**                 
- [90] * **`[92] tBodyAccJerk-max()-X`**                 
- [91] * **`[93] tBodyAccJerk-max()-Y`**                 
- [92] * **`[94] tBodyAccJerk-max()-Z`**                 
- [93] * **`[95] tBodyAccJerk-min()-X`**                 
- [94] * **`[96] tBodyAccJerk-min()-Y`**                 
- [95] * **`[97] tBodyAccJerk-min()-Z`**                 
- [96] * **`[98] tBodyAccJerk-sma()`**                   
- [97] * **`[99] tBodyAccJerk-energy()-X`**              
- [98] * **`[100] tBodyAccJerk-energy()-Y`**             
- [99] * **`[101] tBodyAccJerk-energy()-Z`**             
-[100] * **`[102] tBodyAccJerk-iqr()-X`**                
-[101] * **`[103] tBodyAccJerk-iqr()-Y`**                
-[102] * **`[104] tBodyAccJerk-iqr()-Z`**                
-[103] * **`[105] tBodyAccJerk-entropy()-X`**            
-[104] * **`[106] tBodyAccJerk-entropy()-Y`**            
-[105] * **`[107] tBodyAccJerk-entropy()-Z`**            
-[106] * **`[108] tBodyAccJerk-arCoeff()-X,1`**          
-[107] * **`[109] tBodyAccJerk-arCoeff()-X,2`**          
-[108] * **`[110] tBodyAccJerk-arCoeff()-X,3`**          
-[109] * **`[111] tBodyAccJerk-arCoeff()-X,4`**          
-[110] * **`[112] tBodyAccJerk-arCoeff()-Y,1`**          
-[111] * **`[113] tBodyAccJerk-arCoeff()-Y,2`**          
-[112] * **`[114] tBodyAccJerk-arCoeff()-Y,3`**          
-[113] * **`[115] tBodyAccJerk-arCoeff()-Y,4`**          
-[114] * **`[116] tBodyAccJerk-arCoeff()-Z,1`**          
-[115] * **`[117] tBodyAccJerk-arCoeff()-Z,2`**          
-[116] * **`[118] tBodyAccJerk-arCoeff()-Z,3`**          
-[117] * **`[119] tBodyAccJerk-arCoeff()-Z,4`**          
-[118] * **`[120] tBodyAccJerk-correlation()-X,Y`**      
-[119] * **`[121] tBodyAccJerk-correlation()-X,Z`**      
-[120] * **`[122] tBodyAccJerk-correlation()-Y,Z`**      
-[121] * **`[123] tBodyGyro-mean()-X`**                  
-[122] * **`[124] tBodyGyro-mean()-Y`**                  
-[123] * **`[125] tBodyGyro-mean()-Z`**                  
-[124] * **`[126] tBodyGyro-std()-X`**                   
-[125] * **`[127] tBodyGyro-std()-Y`**                   
+* **`[31] tBodyAcc-arCoeff()-X,4`**               
+* **`[32] tBodyAcc-arCoeff()-Y,1`**               
+* **`[33] tBodyAcc-arCoeff()-Y,2`**               
+* **`[34] tBodyAcc-arCoeff()-Y,3`**               
+* **`[35] tBodyAcc-arCoeff()-Y,4`**               
+* **`[36] tBodyAcc-arCoeff()-Z,1`**               
+* **`[37] tBodyAcc-arCoeff()-Z,2`**               
+* **`[38] tBodyAcc-arCoeff()-Z,3`**               
+* **`[39] tBodyAcc-arCoeff()-Z,4`**               
+* **`[40] tBodyAcc-correlation()-X,Y`**           
+* **`[41] tBodyAcc-correlation()-X,Z`**           
+* **`[42] tBodyAcc-correlation()-Y,Z`**           
+* **`[43] tGravityAcc-mean()-X`**                 
+* **`[44] tGravityAcc-mean()-Y`**                 
+* **`[45] tGravityAcc-mean()-Z`**                 
+* **`[46] tGravityAcc-std()-X`**                  
+* **`[47] tGravityAcc-std()-Y`**                  
+* **`[48] tGravityAcc-std()-Z`**                  
+* **`[49] tGravityAcc-mad()-X`**                  
+* **`[50] tGravityAcc-mad()-Y`**                  
+* **`[51] tGravityAcc-mad()-Z`**                  
+* **`[52] tGravityAcc-max()-X`**                  
+* **`[53] tGravityAcc-max()-Y`**                  
+* **`[54] tGravityAcc-max()-Z`**                  
+* **`[55] tGravityAcc-min()-X`**                  
+* **`[56] tGravityAcc-min()-Y`**                  
+* **`[57] tGravityAcc-min()-Z`**                  
+* **`[58] tGravityAcc-sma()`**                    
+* **`[59] tGravityAcc-energy()-X`**               
+* **`[60] tGravityAcc-energy()-Y`**               
+* **`[61] tGravityAcc-energy()-Z`**               
+* **`[62] tGravityAcc-iqr()-X`**                  
+* **`[63] tGravityAcc-iqr()-Y`**                  
+* **`[64] tGravityAcc-iqr()-Z`**                  
+* **`[65] tGravityAcc-entropy()-X`**              
+* **`[66] tGravityAcc-entropy()-Y`**              
+* **`[67] tGravityAcc-entropy()-Z`**              
+* **`[68] tGravityAcc-arCoeff()-X,1`**            
+* **`[69] tGravityAcc-arCoeff()-X,2`**            
+* **`[70] tGravityAcc-arCoeff()-X,3`**            
+* **`[71] tGravityAcc-arCoeff()-X,4`**            
+* **`[72] tGravityAcc-arCoeff()-Y,1`**            
+* **`[73] tGravityAcc-arCoeff()-Y,2`**            
+* **`[74] tGravityAcc-arCoeff()-Y,3`**            
+* **`[75] tGravityAcc-arCoeff()-Y,4`**            
+* **`[76] tGravityAcc-arCoeff()-Z,1`**            
+* **`[77] tGravityAcc-arCoeff()-Z,2`**            
+* **`[78] tGravityAcc-arCoeff()-Z,3`**            
+* **`[79] tGravityAcc-arCoeff()-Z,4`**            
+* **`[80] tGravityAcc-correlation()-X,Y`**        
+* **`[81] tGravityAcc-correlation()-X,Z`**        
+* **`[82] tGravityAcc-correlation()-Y,Z`**        
+* **`[83] tBodyAccJerk-mean()-X`**                
+* **`[84] tBodyAccJerk-mean()-Y`**                
+* **`[85] tBodyAccJerk-mean()-Z`**                
+* **`[86] tBodyAccJerk-std()-X`**                 
+* **`[87] tBodyAccJerk-std()-Y`**                 
+* **`[88] tBodyAccJerk-std()-Z`**                 
+* **`[89] tBodyAccJerk-mad()-X`**                 
+* **`[90] tBodyAccJerk-mad()-Y`**                 
+* **`[91] tBodyAccJerk-mad()-Z`**                 
+* **`[92] tBodyAccJerk-max()-X`**                 
+* **`[93] tBodyAccJerk-max()-Y`**                 
+* **`[94] tBodyAccJerk-max()-Z`**                 
+* **`[95] tBodyAccJerk-min()-X`**                 
+* **`[96] tBodyAccJerk-min()-Y`**                 
+* **`[97] tBodyAccJerk-min()-Z`**                 
+* **`[98] tBodyAccJerk-sma()`**                   
+* **`[99] tBodyAccJerk-energy()-X`**              
+* **`[100] tBodyAccJerk-energy()-Y`**             
+* **`[101] tBodyAccJerk-energy()-Z`**             
+* **`[102] tBodyAccJerk-iqr()-X`**                
+* **`[103] tBodyAccJerk-iqr()-Y`**                
+* **`[104] tBodyAccJerk-iqr()-Z`**                
+* **`[105] tBodyAccJerk-entropy()-X`**            
+* **`[106] tBodyAccJerk-entropy()-Y`**            
+* **`[107] tBodyAccJerk-entropy()-Z`**            
+* **`[108] tBodyAccJerk-arCoeff()-X,1`**          
+* **`[109] tBodyAccJerk-arCoeff()-X,2`**          
+* **`[110] tBodyAccJerk-arCoeff()-X,3`**          
+* **`[111] tBodyAccJerk-arCoeff()-X,4`**          
+* **`[112] tBodyAccJerk-arCoeff()-Y,1`**          
+* **`[113] tBodyAccJerk-arCoeff()-Y,2`**          
+* **`[114] tBodyAccJerk-arCoeff()-Y,3`**          
+* **`[115] tBodyAccJerk-arCoeff()-Y,4`**          
+* **`[116] tBodyAccJerk-arCoeff()-Z,1`**          
+* **`[117] tBodyAccJerk-arCoeff()-Z,2`**          
+* **`[118] tBodyAccJerk-arCoeff()-Z,3`**          
+* **`[119] tBodyAccJerk-arCoeff()-Z,4`**          
+* **`[120] tBodyAccJerk-correlation()-X,Y`**      
+* **`[121] tBodyAccJerk-correlation()-X,Z`**      
+* **`[122] tBodyAccJerk-correlation()-Y,Z`**      
+* **`[123] tBodyGyro-mean()-X`**                  
+* **`[124] tBodyGyro-mean()-Y`**                  
+* **`[125] tBodyGyro-mean()-Z`**                  
+* **`[126] tBodyGyro-std()-X`**                   
+* **`[127] tBodyGyro-std()-Y`**                   
 [126] * **`[128] tBodyGyro-std()-Z`**                   
 [127] * **`[129] tBodyGyro-mad()-X`**                   
 [128] * **`[130] tBodyGyro-mad()-Y`**                   
