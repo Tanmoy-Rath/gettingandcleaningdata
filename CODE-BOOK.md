@@ -89,11 +89,11 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 * **`[4] tBodyAcc-mean()-Y`**                     
 * **`[5] tBodyAcc-mean()-Z`**                     
 * **`[6] tBodyAcc-std()-X`**                      
-  [5] * **`[7] tBodyAcc-std()-Y`**                      
-  [6] * **`[8] tBodyAcc-std()-Z`**                      
-  [7] * **`[9] tBodyAcc-mad()-X`**                      
-  [8] * **`[10] tBodyAcc-mad()-Y`**                     
-  [9] * **`[11] tBodyAcc-mad()-Z`**                     
+* **`[7] tBodyAcc-std()-Y`**                      
+* **`[8] tBodyAcc-std()-Z`**                      
+* **`[9] tBodyAcc-mad()-X`**                      
+* **`[10] tBodyAcc-mad()-Y`**                     
+* **`[11] tBodyAcc-mad()-Z`**                     
  [10] * **`[12] tBodyAcc-max()-X`**                     
  [11] * **`[13] tBodyAcc-max()-Y`**                     
  [12] * **`[14] tBodyAcc-max()-Z`**                     
