@@ -148,6 +148,15 @@ features$V2 <- gsub("BodyBody", "Body", features$V2)
 colnames(Train_Test_combo)[3:563] <- features$V2
 ```
 
-
-
+A part of the Train_Test_combo dataset is shown below
+```R
+> Train_Test_combo[1:5,1:7]
+  subject_id activity tBodyAcc.mean...X tBodyAcc.mean...Y tBodyAcc.mean...Z tBodyAcc.std...X tBodyAcc.std...Y
+1          1 STANDING         0.2885845       -0.02029417        -0.1329051       -0.9952786       -0.9831106
+2          1 STANDING         0.2784188       -0.01641057        -0.1235202       -0.9982453       -0.9753002
+3          1 STANDING         0.2796531       -0.01946716        -0.1134617       -0.9953796       -0.9671870
+4          1 STANDING         0.2791739       -0.02620065        -0.1232826       -0.9960915       -0.9834027
+5          1 STANDING         0.2766288       -0.01656965        -0.1153619       -0.9981386       -0.9808173
+> 
+```
 
