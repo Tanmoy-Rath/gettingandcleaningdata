@@ -9,7 +9,7 @@ A full description is available at the site where the data was obtained: <a href
 
 Here are the data for the project:<a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip">HERE</a>
 
-`⚠️ <b>ALERT</b> !! Be sure to check out the ***README.txt*** and ***features_info.txt***, included with the dataset.`
+`⚠️ ALERT !! Be sure to check out the README.txt and features_info.txt, included with the dataset.`
 
 ### Project Requirements
 You should create one R script called **run_analysis.R** that does the following.
