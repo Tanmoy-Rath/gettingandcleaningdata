@@ -21,7 +21,7 @@ You should create one R script called **run_analysis.R** that does the following
 
 <br/>
 
-### run_analysis.R explaination
+### _run_analysis.R_ explaination
 #### Download and unzip the file to your working directory
 You can do this either by the script given below or download directly via the browser. Be sure to check the files *README.txt* and *features_info.txt*.
 ```R
@@ -134,3 +134,20 @@ The activity names viz.
 activity_labels <- fread("zip_directory_UCI//UCI HAR Dataset//activity_labels.txt", data.table = FALSE, na.strings=c("",NA))
 Train_Test_combo$activity <- factor(activity_labels$V2[Train_Test_combo$activity], levels=activity_labels$V2)
 ```
+
+<br/>
+
+#### TASK-4: Appropriately label the data set with descriptive variable names.
+```R
+# The descriptive variable names are located in features$V2 column (or features.txt)
+# In my opinion, these names are descriptive enough, but they are also syntactically invalid.
+# make.names() creates syntactically valid names
+
+features$V2 <- make.names(names=features$V2, unique=TRUE, allow_ = TRUE)
+features$V2 <- gsub("BodyBody", "Body", features$V2)
+colnames(Train_Test_combo)[3:563] <- features$V2
+```
+
+
+
+
