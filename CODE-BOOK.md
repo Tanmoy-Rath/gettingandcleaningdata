@@ -640,9 +640,9 @@ The remaining columns are measurements taken by the smartphone for each Subject 
 [553] * **`[555] fBodyGyroJerkMag.skewness..`**         
 [554] * **`[556] fBodyGyroJerkMag.kurtosis..`**         
 [555] * **`[557] angle.tBodyAccMean.gravity.`**         
-[556] * **`[558] angle.tBodyAccJerkMean..gravityMean.`**
+[556] * **`[558] angle.tBodyAccJerkMean..gravityMean.`**                     
 [557] * **`[559] angle.tBodyGyroMean.gravityMean.`**    
-[558] * **`[560] angle.tBodyGyroJerkMean.gravityMean.`**
+[558] * **`[560] angle.tBodyGyroJerkMean.gravityMean.`**                     
 [559] * **`[561] angle.X.gravityMean.`**                
 [560] * **`[562] angle.Y.gravityMean.`**                
 [561] * **`[563] angle.Z.gravityMean.`**                
