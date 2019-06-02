@@ -1,3 +1,15 @@
+### Transformations on raw data
+- The files _subject_train.txt_, _X_train.txt, _y_train.txt_ were used with **cbind()** to create dataset **train_combined**.
+- The files _subject_test.txt_, _X_test.txt, _y_test.txt_ were used with **cbind()** to create dataset **test_combined**.
+- Both _train_combined_ and _test_combined_ were used with **rbind()** to create **Train_Test_combo**.
+- A dataset **Mean_Std** was created from _Train_Test_combo_ by extracting means and standard deviation for each measurement.
+- **Train_Test_combo$activity** contained numbers, it was replaced by activity names found in _activity_labels.txt_.
+- Column names of **Train_Test_combo** were renamed appropriately from **V1, V2, ...** to those found in _features.txt_.
+- A summary dataset **Tidy_data** was created from _Train_Test_combo_ using dplyr(). It contains the mean of each subject for each different activity performed.
+- _Tida_data_ was written to a file called **tidydata.txt**.
+
+<br/>
+
 ### Description of tidy dataset in *tidydata.txt*
 Each row represents 1 Subject and 1 Activity. The raw data included multiple measurement observations for each Subject and Activity, so these were averaged together for the final tidy dataset. The final tidy dataset is a data.frame.
 
