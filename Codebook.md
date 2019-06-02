@@ -10,7 +10,7 @@
 
 <br/>
 
-### Description of tidy dataset in *tidydata.txt*
+### Description of Tidy_data in *tidydata.txt*
 Each row represents 1 Subject and 1 Activity. The raw data included multiple measurement observations for each Subject and Activity, so these were averaged together for the final tidy dataset. The final tidy dataset is a data.frame.
 
 <br/>
