@@ -95,9 +95,10 @@ The first 2 columns in the dataset serve as Identifiers:
 
 ### Measurements
 The remaining columns are measurements taken by the smartphone for each Subject and Activity. They have been named based on what they measure or how they are measured.
-> e.g. **angle.tBodyAccJerkMean..gravityMean.** is the data variable (or column), containing the angle between mean of linear acceleration of body and mean of gravity component of acceleration. see **_<a href="https://github.com/Tanmoy-Rath/gettingandcleaningdata/blob/master/Codebook.md#abbreviations-explained">Abbreviations explained</a>_** for more details.
+> e.g. **angle.tBodyAccJerkMean..gravityMean.** is the data variable (or column), containing the angle between mean of linear acceleration of body and mean of gravity component of acceleration.
+> see **_<a href="https://github.com/Tanmoy-Rath/gettingandcleaningdata/blob/master/Codebook.md#abbreviations-explained">Abbreviations explained</a>_** for more details on naming conventions used.
 
-The full structure of the Tidy_data dataset is given below along with the column classes.
+The full structure of the Tidy_data dataset is given below along with the column classes. Except the first 2 columns, all the other columns are of numeric type.
 ```R
 > str(Tidy_data, list.len=ncol(Tidy_data))
 'data.frame':	180 obs. of  563 variables:
