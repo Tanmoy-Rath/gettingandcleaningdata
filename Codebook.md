@@ -1,6 +1,6 @@
 ### Transformations on raw data
-- The files _subject_train.txt_, _X_train.txt, _y_train.txt_ were used with **cbind()** to create dataset **train_combined**.
-- The files _subject_test.txt_, _X_test.txt, _y_test.txt_ were used with **cbind()** to create dataset **test_combined**.
+- The files _subject_train.txt_, _X_train.txt_, _y_train.txt_ were used with **cbind()** to create dataset **train_combined**.
+- The files _subject_test.txt_, _X_test.txt_, _y_test.txt_ were used with **cbind()** to create dataset **test_combined**.
 - Both _train_combined_ and _test_combined_ were used with **rbind()** to create **Train_Test_combo**.
 - A dataset **Mean_Std** was created from _Train_Test_combo_ by extracting means and standard deviation for each measurement.
 - **Train_Test_combo$activity** contained numbers, it was replaced by activity names found in _activity_labels.txt_.
